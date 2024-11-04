@@ -42,4 +42,4 @@ This stage utilizes two summarization approaches:
 
 ### Prerequisites
 - Python 3.10
-- `yt-dlp`, `moviepy`, `transformers`
+- `yt-dlp`, `moviepy`, `transformers`,`bitsandbytes`,`whisper`
