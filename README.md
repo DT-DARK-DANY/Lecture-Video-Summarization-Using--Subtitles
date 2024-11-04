@@ -41,9 +41,5 @@ This stage utilizes two summarization approaches:
 ## Getting Started
 
 ### Prerequisites
-- Python 3.x
-- `yt-dlp`, `moviepy`, `transformers`, and other dependencies specified in `requirements.txt`
-
-### Installation
-```bash
-pip install -r requirements.txt
+- Python 3.10
+- `yt-dlp`, `moviepy`, `transformers`
