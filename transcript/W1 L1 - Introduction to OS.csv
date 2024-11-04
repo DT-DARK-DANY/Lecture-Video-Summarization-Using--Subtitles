@@ -1,0 +1,164 @@
+,start,end,text
+0,0.0,23.2, Hello and welcome to the first week's lecture for the course on Introduction to Operating
+1,23.2,31.32, Systems. This week we will be building a platform for the course upon which the following
+2,31.32,38.92, weeks lectures will depend upon. In this particular lecture we will give a very brief introduction
+3,38.92,46.64, to OS. In particular we will look at where the operating system actually fits in the entire
+4,46.64,53.92, computer and also we will see what is the essential role of the operating systems in the computer.
+5,53.92,62.16," So, when we look at computer systems we can think of it in different layers. So, right at the"
+6,62.16,68.68," bottom layer are millions and billions of transistors. So, these transistors are typically"
+7,68.68,75.44, CMOS transistors and these transistors are then composed together to build several logical
+8,75.44,83.92, gates and these gates would include several digital logical gates such as the AND gate or XOR
+9,83.92,92.75999999999999," and so on. Included in this particular layer are various things like the memory cells, flip"
+10,92.75999999999999,102.03999999999999," flops, registers and so on. Now, all these basic VLSI units are then organized into various"
+11,102.04,112.28," forms to build things like the memory, RAM, the decode unit, the instruction fetch unit and so on."
+12,112.28,120.12," So, this organization which is the third layer in the computer system is what we actually see as"
+13,120.12,127.72," the hardware. So, this is the physical hardware that we actually purchase from the store. Now,"
+14,127.72,134.92, when we purchase this computer hardware we could execute several different applications.
+15,134.92,143.8," For instance, we could have office applications or internet explorers and so on. Now, sitting"
+16,143.8,151.4," between these applications as well as the hardware is the operating systems. So, the operating system"
+17,151.88,158.92000000000002, essentially would manage both the applications that execute on the computer as well as it would
+18,158.92000000000002,165.48000000000002," manage how the resources are utilized in the system. So, let us see more in detail how the"
+19,165.48000000000002,175.32," operating systems are used in the entire scheme. To look at it broadly, the operating system is used"
+20,175.4,183.72, for two things. The it first provides hardware abstraction and second manages resources in the system.
+21,184.76,192.84, The hardware abstraction essentially is used in order to turn the hardware into something that
+22,192.84,200.68, software applications can utilize easily while the resource management is required because of
+23,200.68,207.96," the limited resources that are present in the computer. So, we will look at these two uses of the"
+24,207.96,216.20000000000002," operating system in more detail. Let us start with this very simple program. So, this is a program"
+25,216.20000000000002,223.24, written in the C language and essentially it is going to print the string hello world onto the
+26,223.24,231.0," monitor. So, this is a very simple program and essentially the string hello world is stored in"
+27,231.0,241.56," memory and it is pointed to by this pointer STR. Now, printf is passed this pointer STR and would"
+28,241.56,251.08," result in the string being printed onto the monitor. Now, the question which comes is how exactly"
+29,251.08,259.0, is the string displayed onto the monitor. What is the process involved to get the string which is
+30,259.0,266.76," stored in memory to be displayed onto the monitor. So, in fact, when we look at the entire scheme,"
+31,267.48,273.72, the string hello world would be present in some memory location in the main memory which is also
+32,273.8,282.04," called as the RAM. Now, there are certain instructions in the processor would read the string bite by bite"
+33,283.0,290.92, from the main memory into registers and then copy them onto something known as a video buffer.
+34,291.88000000000005,298.84000000000003," Along with copying the string hello world to the video buffer, other attributes are added"
+35,298.84,307.08, for instance things like the color of the string to be displayed. The x y coordinates on the monitor
+36,307.08,313.47999999999996, where the hello world string needs to be displayed and other monitor specific attributes such as
+37,313.47999999999996,321.88," the depth and so on. Now, this string which is copied to the video buffer is then read by the"
+38,321.88,331.0," graphics card which would then display it on the monitor. So, this is the entire process of"
+39,331.0,342.2," displaying a string hello world onto a monitor. So, now you would see that doing this is not trivial."
+40,342.2,347.56, It is in fact quite complex as well as tedious. Imagine that every program that you write would
+41,347.56,355.72, require to do all these things like knowing where in the memory the hello world is stored and then
+42,356.44,362.68," how to actually display it onto the monitor, how to compute the coordinates, how to specify the color,"
+43,363.4,370.76, the depth and other attributes and how exactly to pass this information to the graphics card and so on.
+44,371.48,378.92, Another aspect is that this is extremely hard by dependent. Any change in one of these things for
+45,378.92,385.8, example if the processor changes or if the graphics card or monitor changes then it is quite likely
+46,385.8,393.8," that the program will not work. For example, if the monitor changes then there may be certain"
+47,393.8,401.32, attributes which need to be specified differently for the new monitor or if the graphics card changes
+48,401.32,409.40000000000003, then perhaps the way the coordinates are set where the depth and color are set for this string
+49,409.40000000000003,417.88," hello world would differ. Therefore, without the operating system every programmer would need to"
+50,418.12,425.32, know about the nitty gritty details about the hardware. Essentially he would need to know what
+51,425.32,434.28, hardware is used in the system and also how the various aspects about the hardware fit with each other.
+52,435.88,442.6," So, operating systems essentially provide abstraction. They sit in between the applications that we write"
+53,443.24,452.52000000000004, and the hardware and abstract all the nitty gritty details of the hardware from the applications.
+54,453.48,460.6," So, a simple statement such as this printf SDR would eventually result in something known as"
+55,460.6,467.72, a system call which would trigger the operating system to execute. The OS will then manage how
+56,467.8,475.72," the string SDR will be displayed onto the monitor. Everything such as how the color needs to be set,"
+57,475.72,482.12, how the x y coordinates need to be set and so on would be done internally by the operating system.
+58,483.56,491.32000000000005," So, from an application perspective and from a programmer perspective all these details are abstracted out."
+59,491.32,500.84," So, as you would see this would make writing programs extremely easy. So, the programmer need not"
+60,500.84,509.0, know the nitty gritty details about the hardware anymore. A second advantage is the reusable functionality.
+61,509.64,516.04," Essentially applications can reuse the operating system functionality. So, what we mean by this is"
+62,516.04,524.76, that since the OS abstracts the hardware details from the applications all applications that execute
+63,524.76,530.5999999999999," in this system could just reuse the operating systems features. For example,"
+64,531.64,538.92, every application that uses printf will be invoking the operating system and the OS will then
+65,539.88,547.4799999999999, take care of communicating with the hardware. There is the single module in the operating system
+66,547.4799999999999,553.64, which handles all printfs from all applications executing on the system.
+67,555.16,563.7199999999999, A third advantage is the portability. Essentially what this means is that when we write a program
+68,564.44,571.32, which uses something like a printf statement we do not really bother about what hardware it runs on.
+69,572.36,581.1600000000001, It could run in a desktop for instance or a server or a laptop or if compiled appropriately also
+70,581.1600000000001,589.08," in several embedded devices. So, the underlying operating systems actually would then distinguish"
+71,589.08,596.12, between the various hardware that is present and would then ensure that this printf would be
+72,597.0,604.76," executed appropriately depending on the hardware. So, what we achieve with portability is that"
+73,604.76,611.0, essentially applications will not change even though the underlying hardware changes.
+74,613.08,618.9200000000001, The second use of the operating system is as a resource manager. In the desktops and laptops
+75,619.4,626.1999999999999, that we use today there are several applications which run almost concurrently. For instance we would be
+76,626.1999999999999,633.0, using a web browser to browse the internet and almost at the same time we would be compiling some
+77,633.0,639.8, of the programs that we are written and also executing them or we could be using Skype or a
+78,639.8,647.8," PowerPoint application at almost the same time. Now, the fact is that we could have several"
+79,647.8,654.3599999999999, applications running on our system but the underlying hardware is constrained. Essentially we have
+80,654.3599999999999,660.12, just one hardware which needs to cater to several applications almost concurrently.
+81,661.24,669.16," So, the operating system ensures that it is feasible for multiple applications to share"
+82,669.7199999999999,677.7199999999999," the same hardware. Now, within this computer hardware there are several components which the"
+83,677.7199999999999,686.12," operating system manages. For example, the CPU, the memory network, the secondary storage devices"
+84,686.12,693.0," like the hard disk, the monitors and so on. So, all these components within your computer"
+85,693.72,701.4," have a restricted amount. So, you may typically have around 2 or 4 or 8 CPUs present in your system."
+86,702.76,709.8, Also the memory may be restricted to 4 or 8 GB. You have typically one network card or one or
+87,709.8,719.4," two hard disk and so on. So, the operating system needs to manage all these various devices and"
+88,719.48,726.28, components present in the system and share these components among several applications almost
+89,726.28,734.4399999999999," concurrently. So, with the help of the operating system it would be possible that multiple applications"
+90,734.4399999999999,743.4, share this limited resources and also the OS is built in such a way that applications are protected
+91,743.4,749.72, from each other. Essentially the underlying way the operating system is designed is such that
+92,750.28,757.88, every component in the system is adequately utilized. To take an example let us consider the CPU.
+93,758.92,766.52," So, systems typically would have one or two CPUs and multiple applications executing on that CPU."
+94,767.4,773.0," So, how does the operating system share the single CPU among multiple applications?"
+95,774.1999999999999,782.12," So, one way which was typically done in the earlier operating systems around the late 70s and early 80s"
+96,783.16,791.8, was to allow one application to execute on the CPU till it completes and then start the next
+97,791.8,799.48," application. For example, application one is made to execute on the processor and after application"
+98,799.5600000000001,808.12," one completes its execution only then application two is made to start. Now, this scheduling of the"
+99,808.12,820.04," various applications on the processor is managed by the OS. Now, this scheme of sequentially executing"
+100,820.04,827.4, one up after the other completes although very simple to implement in the operating system.
+101,827.8,835.64," It is not the most efficient way to do things. So, as we will see in a later video we will see what"
+102,835.64,844.52, are the issues with having applications execute in this particular way and we will see how modern
+103,844.52,851.0799999999999, day operating systems manage to utilize this processor in a much more efficient manner.
+104,851.24,859.64, Another important component in the computer system that requires to be shared among the various
+105,859.64,867.32," applications almost concurrently is the main memory. Now, in order to execute each of these"
+106,867.32,873.1600000000001, applications needs to be present in the main memory that is the RAM of the system.
+107,874.12,881.9599999999999, The operating system needs to ensure how this limited RAM resource is shared among the various
+108,882.76,890.04," applications executing on the system. Now, what makes it difficult for the operating system"
+109,890.68,899.9599999999999, is that in spite of sharing the limited hardware resources among the various applications which
+110,899.96,906.44, are executing on the computer system the sharing should be done in such a way so that applications
+111,906.44,917.0," are isolated from each other. So, each application the OS should ensure runs in a sandboxed environment"
+112,917.0,922.84, that is application one should not know anything about application two. Application two should not
+113,923.0,927.32, know anything about the other applications running on the system and so on.
+114,928.6,936.6," So, why is this isolation required? To take an example of why isolation is required let us consider"
+115,936.6,942.2800000000001, that application one is a web browser in which you are doing a banking transaction.
+116,942.9200000000001,949.64," For example, you are entering your passwords and credit card details in the web browser which"
+117,949.8,957.48, is executing as application one. On the other hand application two may be a gaming software
+118,957.48,964.12, and let us assume that it is having a virus that is it is a malicious application.
+119,965.48,972.36," Now, assume that we did not have isolation application two would be able to determine what"
+120,972.44,980.12, application one is doing or in other words the malicious application will be able to determine
+121,980.12,985.8000000000001," what is happening in the web browser and therefore, may be able to steal certain sensitive"
+122,985.8000000000001,993.0," information such as your passwords and your credit card numbers. Therefore, the operating system"
+123,993.0,1001.5600000000001, should ensure that all these applications are isolated from each other and as we can see this
+124,1001.56,1009.4799999999999, is not a very easy thing to do. Operating systems are ubiquitous almost every smart device that we
+125,1009.4799999999999,1015.88," use today has some form of operating system present in it. So, this particular slide shows the"
+126,1015.88,1022.52, various classifications of operating systems depending on the type of application they are intended
+127,1022.52,1029.08, for needless to say each of these operating systems are designed keeping the application in mind.
+128,1029.24,1037.72," For example, the embedded OS such as contiki operating systems or contiki OS are designed for"
+129,1037.72,1045.3999999999999, memory constrained environments such as wireless sensor nodes that are used in the internet of things.
+130,1045.8799999999999,1051.32, Operating systems like the contiki OS are designed with the power consumption kept in mind.
+131,1051.96,1059.8799999999999," So, these operating systems manage their various resources and also abstract hardware in such a way"
+132,1059.8799999999999,1069.3999999999999, that the power consumed by the entire system is kept minimum. A second class of operating systems
+133,1070.6,1075.08, which many of you may be familiar with is the mobile operating system or mobile OS.
+134,1075.8799999999999,1081.32," So, examples of these are the Android iOS Ubuntu Touch and Windows Touch."
+135,1083.0,1091.1599999999999," So, these operating systems like the embedded OS are designed in order to ensure that the power"
+136,1091.1599999999999,1097.6399999999999," consumed by the device is kept minimum. So, for example, these operating systems are designed"
+137,1097.6399999999999,1104.4399999999998, so that the battery charge of your mobile phone is extended for the maximum amount of time.
+138,1106.04,1112.9199999999998," So, the mobile OS is like the ones we mentioned over here as quite similarities in this aspect"
+139,1112.9199999999998,1119.48," with the embedded operating systems like the contiki OS. However, mobile operating systems"
+140,1119.48,1126.36, unlike the embedded OS also need to take care of certain special devices.
+141,1126.52,1137.8," For instance, the monitors or the LCD screens and key pads. In other words, the mobile OS also"
+142,1137.8,1147.56, has user interaction which typically is not present in the embedded OS. A third type of operating
+143,1147.56,1155.9599999999998," system is the RTOS or real time operating systems. So, examples of these are QNX"
+144,1156.52,1164.1999999999998," VX works and RT Linux. So, these operating systems are used in mission critical applications"
+145,1164.1999999999998,1172.4399999999998," where time is very important. For example, in several mission critical applications like rockets,"
+146,1173.24,1180.36," automobiles or nuclear plants, a delay in doing a particular operation by the computer system"
+147,1180.52,1188.52," would be catastrophic. So, these RTOS's are designed in such a way that every critical operation"
+148,1188.52,1197.9599999999998, on the system is guaranteed to complete within the specified time. Another classification of
+149,1197.9599999999998,1204.4399999999998," operating systems are those used in secure environments. So, examples of these are"
+150,1204.76,1211.56," SE Linux and SEL 4. So, these operating systems are especially utilized for applications"
+151,1212.3600000000001,1220.1200000000001," where security is extremely critical. So, these for example, could be for web servers that host"
+152,1220.1200000000001,1225.96," banking software and so on. So, the other classes of operating systems which you are"
+153,1225.96,1233.4," quite familiar with are for those used for servers and desktops such as the Red Hat, Ubuntu and"
+154,1233.4,1239.8000000000002," Windows Server OS's while desktop operating systems are for example, Mac, Windows and Ubuntu."
+155,1240.68,1245.8000000000002," So, while these two operating systems have several features which are similar,"
+156,1246.68,1253.0, there may be subtle differences in the way the OS manages the various applications running on it.
+157,1254.68,1261.88, The operating system that we will be studying for this course is the XB6 OS which is designed by
+158,1261.88,1272.44," MIT specifically for teaching purposes. So, the XB6 OS is small, well documented and easy to understand."
+159,1273.72,1285.3200000000002," Further, XB6 is designed to look similar to Unix version 6. So, what this means is that the way"
+160,1285.32,1292.04, XB6 is designed is how various Unix like operating systems like Linux actually works.
+161,1292.6799999999998,1300.36," Therefore, understanding XB6 would give you a nice insight about other modern day operating systems"
+162,1300.36,1311.3999999999999, such as Linux. Thank you.

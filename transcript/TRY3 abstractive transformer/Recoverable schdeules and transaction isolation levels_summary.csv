@@ -1,0 +1,3 @@
+,Unnamed: 0,start,end,text,best_match,similarity_score
+16,16,214.6,225.6,basically transaction needs wait till transactions per much read item completes,recoverable schedules are schedules that wait until transactions per much read item completes,0.4802287593571528
+26,26,345.6,364.6,context discussed issues identified notion serializability one particular way achieving serializability called configs serializability achieved block based protocol,recoverable schedules are also known as configs serializability achieved block based protocol,0.40055317908001997

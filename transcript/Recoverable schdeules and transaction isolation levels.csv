@@ -1,0 +1,135 @@
+,start,end,text
+0,0.0,29.6," So, today we will spend a little short time trying to wind up the course."
+1,29.6,41.6," So, let me because I have a few points to discuss today. So, let me sort of repeat a few things from the last lecture."
+2,41.6,54.6," We were discussing system paynews and then looked at the various solution options that we have, the different tool that is used with this log and various kinds of logs."
+3,54.6,63.6," And depending on the log what should be the recovery procedure, all these issues going on this first."
+4,63.6,75.6," Now, an important aspect is an aspect, the aspect called recoverability which I briefly, I have introduced in the last lecture also."
+5,75.6,92.6," So, the fourth thing arises from the fact that you know if transactions commit in certain kind of order, then they then it is possible for us to get into for the database to get it right up."
+6,92.6,103.6," So, I have given a sequence of you know events here that a transaction P has modified a DB item and it is doing some more work."
+7,103.6,114.6," Meanwhile some, so this is the case of the reading dirty data. So, meanwhile some other transaction S has read that item X completed its work."
+8,114.6,129.6, But suppose S is allowed to commit then then in such a scenario it is very clear that we will get into trouble because we really do not know what T is going to do in future.
+9,129.6,134.6," So, T might finish such a school in which case we may not have much trouble."
+10,134.6,147.6, But if we it for some reason T you know for example having encountered an internal error it might decide to abort in which case it would turn out that S has actually read dirty data.
+11,147.6,157.6," So, the whole thing has come about because we have allowed S to read an item that has been modified by a running transaction."
+12,157.6,170.6, And then instead of waiting for the running transaction to come to a conclusion it has this transaction has gone about and then committed and we have allowed S at a time to take place.
+13,170.6,185.6," So, this is the classic scenario in which we will get into trouble and so and so we isolated this and then defined what are called recoverable schedules."
+14,185.6,196.6," So, S a schedule S this is not a transaction or it is a schedule so it is a sequence of operations of total transactions."
+15,196.6,214.6," So, the transaction is this schedule is called recoverable if in that schedule no transaction commits until all the transactions per much it has read have actually committed."
+16,214.6,225.6," So, basically this transaction T needs to wait till each of those transactions per much it has read some item completes."
+17,225.6,231.6," So, the completing could be that they have they commit or they may even abort."
+18,231.6,238.6," So, if all of them commit then they can go ahead and then ask for a commit because it really can treat work."
+19,238.6,248.6, But if any one of them abort then it is moving to be that we also have to abort because it has read that.
+20,248.6,267.6," So, if in such a scenario we also encounter this phenomenon called the cascading abort or cascading rollbacks because if this transaction T has to abort then all those transactions which have read the item that has been modified."
+21,267.6,285.6," So, the case has been released by transaction T also have to enroll and because they have to enroll forever has read an item that has much better by them also have to enroll and cascades."
+22,285.6,302.6," So, cascading rollbacks may occur but then without this property being satisfied by schedules the transit the database would not be able to give durability assurance at all."
+23,302.6,313.6," So, what durable the requires is that if some transaction commits then the effects of that particular transaction are permanently recorded in the database on the desk."
+24,313.6,323.6," So, such a kind of the mandates will not be able to provide if we do not take care about observing this durability constraint."
+25,323.6,344.6," Now, we have also discussed this concept of serializability where this is more to do with how do how do transaction operations interleaves and what kind of transaction operation interleavings are acceptable or desirable."
+26,345.6,364.6," So, in that context we have discussed the issues and then we have identified the notion of serializability and one particular way of achieving that serializability called configs serializability which is again achieved through block based protocol."
+27,364.6,374.6," So, we have discussed two things the locking protocol and if transactions follow two ways of locking protocol then serializability is guaranteed."
+28,374.6,384.6, But then these we realize that serializability does not you know put any restrictions on the order in which commits have to happen and things like that.
+29,384.6,396.6," So, a strict serializability definition does not include anything about commits whereas and also recoverability has nothing to do about interleaving of operations and things like that."
+30,396.6,413.6," So, these two things are actually orthogonal definitions but then in practice what we need actually we need schedules that are both recoverable as well as serialized only then that particular transaction system will be able to achieve all the desirable."
+31,413.6,425.6," So, we actually all the desirable properties are the especially all the asset properties are from the ICILA collection and you know."
+32,425.6,431.6," Okay, consistency of course is a programmer's response."
+33,431.6,451.6," So, now in the context of this entire thing we need to also think about whether we can avoid this cascading role that can we avoid cascading role that because role back is a costly operation."
+34,451.6,458.6," So, you have to you know undo lot of efforts that have been done on the database and all that."
+35,458.6,467.6," So, in such context we can there is a schedule is so we introduce this notion called cascading list schedules."
+36,467.6,477.6, This cascading list schedules are those kind of schedules in which we do not have this need for cascading role back.
+37,477.6,487.6," So, basically such a schedule is called ACR schedule also which basically stands for avoiding cascading role that is."
+38,487.6,491.6, ACR basically says avoiding cascading role that is.
+39,491.6,502.6," So, schedule is called cascading list or ACR schedule if in this in the schedule transactions we values written by committed transactions."
+40,502.6,511.6," So, you can reading some item I must ensure that it has been class written by or whatever role that last is a committed transaction."
+41,511.6,514.6, But how do I know as a transaction I will not know.
+42,514.6,531.6," So, we have to cleverly again modify the our working protocol in such a way that when transactions are running they will not be allowed to be items that have not been committed by that have been written by."
+43,531.6,543.6," So, this we will shortly see how we can modify the two case locking protocol to achieve that."
+44,543.6,554.6, But once this is there it is very clear to you know that every one of these avoiding ACR schedule is indeed recoverable because.
+45,554.6,559.6," So, we have put this restriction saying that it has to be from committed transactions."
+46,559.6,572.6," So, such a so a schedule in this schedule every transaction surely you know will commit only after all the transactions that have that it has read from commit."
+47,572.6,575.6, And that is what the recoverable becomes to it is right.
+48,575.6,584.6, If you are committing then if you have read some item that that was modified by some other transaction you should wait for that to commit before you cut.
+49,584.6,586.6, That is what the recoverable take advantage.
+50,586.6,597.6, But now if you do not even read the items unless that fellow has committed then you are guaranteed that you are only searching picking up items that have been written by committed transactions.
+51,597.6,603.6, And so you will surely commit only after all of them come.
+52,603.6,623.6," So, such a so any such schedule in which this property can be guaranteed somehow that transactions will be only values written by committed transactions will be cascaded less will be cascaded less."
+53,624.6,630.6, And such a thing is actually not very difficult to achieve because all that you have to do is the locking schedule is in your hands.
+54,630.6,632.6, The locking schedule is in your hands.
+55,632.6,640.6," So, now you dictate as to how or the two PL is has to be appropriately changed."
+56,640.6,652.6," So, so for locking based methods for concurrency control notice that there are other ways of achieving concurrency control especially we have who we did not have time to discuss this other."
+57,653.6,658.6, They are called time stamp based approaches for concurrency control.
+58,658.6,675.6, These time stamp based concurrency control are actually also called optimistic concurrency control techniques in a sense that they will they will let the transactions run and then check whether everything is proper.
+59,675.6,677.6," So, not so take some corrective act."
+60,677.6,682.6," So, assuming that most transactions do not get into double the future."
+61,682.6,685.6," So, there is an optimistic way of doing that."
+62,685.6,700.6, Whereas the locking based concurrency control based on two case locking protocol is a pessimistic approach it will assume that if you do not do anything transactions will conflict with each other.
+63,700.6,715.6," And so, it is it is enforcing conflict serializability and thus making sure that the schedules that arrive are conflict equal and to some serial schedule serial schedules are same."
+64,715.6,718.6," So, that is the intuition."
+65,719.6,739.6," So, so when we restrict ourselves to locking based concurrency control methods a way of achieving this cascaded schedules is to modify the two case locking protocol and make it restrict two case locking protocol."
+66,740.6,757.6," So, where we will we will impose that a transaction must not release any locks especially right locks right locks are those which are acquired for the purpose of writing updating the right."
+67,757.6,768.6," So, any right locks until the transaction has either committed or about it and the commit or about law that I have actually been written to this."
+68,769.6,773.6," So, until that time you do not release locks."
+69,773.6,784.6," So, if you do not release locks if a transaction does not release locks then there is no chance for any other transaction to acquire a lock on some item and then it will serve right."
+70,784.6,794.6," So, in this case you are keeping all the locks with you till you commit or you are about ok."
+71,795.6,810.6," So, if you commit and then you have released items then anybody else anybody else who is reading these items that you have modified or actually reading items that have been written by a committed transaction."
+72,810.6,815.6," So, there is no issue right. So, cascaded list schedule serial arrived."
+73,816.6,837.6, In case this transaction has about it then obviously those transactions have to be about it. But this about thing a transaction is not a major issue we can do that just like we have done error recovery procedures we can we can take one particular transaction and undo its operation.
+74,837.6,854.6," So, this modification results in what are called strict schedules. So, strict schedules are those schedules in which the transaction may the weeds now writes an item until the last transaction the road acts as has been eliminated."
+75,854.6,859.6, As eliminated we do not know that it is successfully otherwise just a little.
+76,860.6,886.6," So, this will result in what are called strict schedules and we can we can so strict schedules are following through PL is a strict to PL is more strict a version of two days locking why is this strict a version of two days locking because in two days locking all that we said is that don't ask for a lock the moment you start issuing and locks."
+77,887.6,896.6, The moment you should if the moment you start releasing lock don't ask for any more lock that's all we said there.
+78,896.6,910.6, But here we are saying that keep all the locks with you and then release them at the end so there is no question of asking for reading or lock you are keeping so you will have only a lock in place and then at one go you release a lock.
+79,911.6,929.6," So, these are two days locking protocols and so they are serializable they will result in serializable schedules and they are also cascading schedules because they they don't allow any transaction to weed an item that has been become and come uncompleted."
+80,930.6,948.6," So, these are that's so strict for two days locking is very popular protocol that is using most of the relational database in terms and it achieves cascading less serializable schedules and that's how that is."
+81,949.6,963.6," So, now let's briefly look at the issues in how transactions in SQL work."
+82,964.6,980.6," So, there are a couple of parameters for the transactions in SQL that you can set up one is called the access more so we call access more gather one is called isolation level."
+83,981.6,1004.6," So, there are two access more we don't need access more and we write access more the default is read right access more and isolation level is something you know so in practice it is of course, a theoretically all these schedules have to be serializable schedules."
+84,1005.6,1009.6, Then we have guaranteed that the transaction system is not in perfectly well.
+85,1010.6,1022.6, But in practice SQL would like to give the users an option of running their transactions in a slightly relaxed isolation level.
+86,1022.6,1025.6, The strictest isolation level is serializability.
+87,1026.6,1034.6," So, the default is serializability if you don't say anything it will run in SQL it will be isolation level."
+88,1034.6,1046.6," So, lower isolation levels are available and you choose it at you run this you choose it at you run risk."
+89,1047.6,1058.6," So, actually these are meant for running transactions that kind of collect statistics and aggregate something like that where you are not really so bothered about the up to date values and things like that."
+90,1058.6,1066.6," So, those may not matter to you when you are simply computing some you know, I will guess it."
+91,1066.6,1071.6, And there is one particular isolation level called uncommitted.
+92,1071.6,1083.6, It's actually dangerous so SQL will take an extra precaution to allow only read only transactions to run at such low isolation level.
+93,1083.6,1093.6," So, they will actually pick up some data to be reading but they will not be allowed to modify anything in the data."
+94,1094.6,1099.6," So, each transaction ends with either comment or roll by."
+95,1099.6,1106.6," So, these are the isolation levels the transaction isolation levels."
+96,1108.6,1114.6," So, the highest isolation level is serializability schedules."
+97,1114.6,1122.6," So, in that so, these are the various kinds of problems that might arise if you choose any lower level of isolation."
+98,1123.6,1126.6," So, there are what are called read uncommitted."
+99,1126.6,1132.6," So, this is the lowest level of isolation that one can use but this is the most dangerous level."
+100,1132.6,1138.6," So, SQL allows you only to run read only transactions in this mode."
+101,1138.6,1144.6," So, access mode will be automatically set to read only if you choose beside the isolation level."
+102,1144.6,1152.6," So, all these problems might arise that you read is might arise, unrepeatable reads might arise and also what are called pantons."
+103,1152.6,1159.6," So, the pantons realize I will shortly talk to you a little bit about the pantons."
+104,1159.6,1168.6, Then the next highest level is read higher level is read committed where dirty reads do not occur but unrepeatable reads might occur.
+105,1168.6,1173.6, We have discussed this unrepeatable reads earlier and pantons also might occur.
+106,1174.6,1186.6, As repeatable reads no dirty data will be read and no all the reads are repeatable and but pantons might occur.
+107,1186.6,1189.6, I will tell you about what pantons are.
+108,1189.6,1200.6," And the of course, the best thing to do is to run your transaction at serializability level in which you are guaranteed that none of this problem arise."
+109,1201.6,1207.6," So, the problem of pantons is something which is like this."
+110,1207.6,1219.6," This is to do with so supposing that some transaction has selected some tuples based on certain condition say for example,"
+111,1219.6,1222.6," so for example, so it is not a part of pantons."
+112,1222.6,1231.6," So, a bunch of tuples it has locked all the term and it is going ahead and working with it say getting max marked."
+113,1231.6,1240.6," So, a transaction T2 will come into picture update the database within new tuple that satisfies this condition."
+114,1240.6,1245.6," So, this record actually was not even existing in the database when the T1 started."
+115,1245.6,1250.6," So, it has started and it has locked certain items which it is going to use."
+116,1250.6,1260.6," So, obviously if T2 enters some record it might affect what is being done by T1."
+117,1260.6,1263.6, Suppose it is computing max marks and you know that.
+118,1263.6,1278.6," So, this kind of rows which get into the picture after you know the transaction actually started running are really or call this Phantom rows because they kind of come into the picture order to move."
+119,1278.6,1287.6," So, these things cannot be antitiped by any of these things you have to take some extra precautions."
+120,1287.6,1293.6," So, the usual locking protocol you know. So, you have locked whatever you wanted to do but so nobody will be able to touch it."
+121,1293.6,1299.6, But then here is an new thing that you should have locked but it was not existing at the time you will start.
+122,1299.6,1309.6," So, this is a Phantom. So, there is a solution for this and that we will not go into a lot details about that but it is called index locking."
+123,1309.6,1331.6," So, there is a really thing called predicate locking. So, basically you should not just lock blocks or you know database items but you must also put somewhere a record saying that anybody who satisfies this particular condition has to be locked."
+124,1331.6,1340.6," So, it should not be entered into the system. So, that is what it called index locking. So, that is a little advanced concept."
+125,1340.6,1351.6," So, using such techniques they will be able to solve this issue of Phantom's in the content in such context."
+126,1351.6,1361.6," So, with that so choose the isolation levels as see like the levels."
+127,1361.6,1378.6," But of course, some statistics collecting transactions which you do not mind if you read some uncommitted data and say that you can run them at lower isolation levels."
+128,1378.6,1388.6," So, we get some. Then they will actually run fast because they are not waiting for any locks to be released inside the data."
+129,1388.6,1400.6," Good. So, with that let us close the discussion I have complete end of this slides as such."
+130,1400.6,1409.6, But you can see that this I have given you an introduction to the various issues that are there in the concurrency control recovery.
+131,1409.6,1414.6, But I have of course taken them as taken it as one module because the issues are pretty disconnected.
+132,1414.6,1431.6, But there are a lot more details in this particular topic and all you do kind of spend time enjoy reading a little bit more about this fascinating frame called data collection.
+133,1431.6,1440.6," So, with that we kind of complete end of this course formally. Thank you."

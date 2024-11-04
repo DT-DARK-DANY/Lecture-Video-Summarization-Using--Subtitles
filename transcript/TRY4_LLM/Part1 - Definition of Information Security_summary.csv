@@ -1,0 +1,44 @@
+,Unnamed: 0,start,end,text,best_match,similarity_score
+31,31,120.0,125.0, please make sure your cell phones are in shivering mode your chat window in busy mode," It is essential to ensure that cell phones are in ""shivering mode"" and chat windows are in ""busy mode"" to provide undivided attention",0.5712137482240212
+34,34,140.0,148.0, upon completion of this lecture you should be able to understand what information security," By the end of this lecture, students should be able to comprehend the evolution of computer security into information security, understand key terms and critical concepts of modern-day information security, and identify the most important aspects of this field",0.40370236621585104
+37,37,158.0,164.0, understand many key terms and critical concepts of information security of modern day," By the end of this lecture, students should be able to comprehend the evolution of computer security into information security, understand key terms and critical concepts of modern-day information security, and identify the most important aspects of this field",0.5757191134566767
+55,55,266.0,273.0, and to bring this confidentiality integrity and availability into the information security system," The term CIA (Confidentiality, Integrity, and Availability) is a fundamental concept in Information Security, emphasizing the importance of safeguarding information",0.4100469931526998
+58,58,289.0,297.0, for example policies procedures guidelines standard from a security perspective," From a security perspective, policies, procedures, and guidelines are essential to ensure the security of an organization",0.5668735049369866
+59,59,297.0,305.0, what are all the administrative measures and technical measures needed to enforce these three the cia," To enforce these goals, administrative and technical measures are necessary",0.6354733092626075
+62,62,323.0,326.0, and these processes are implemented by technology," These measures should be implemented at the technology level, considering the interplay between people, processes, and technology",0.514253601914239
+63,63,326.0,333.0, so security should be addressed at the technology level and the process which uses this technology," These measures should be implemented at the technology level, considering the interplay between people, processes, and technology",0.4886305352593655
+65,65,337.0,347.0, so there is lot of information lot of disciplines and policies and procedures that people that need to be," This involves various disciplines, policies, and procedures that need to be implemented at each stage",0.4217804075176167
+78,78,432.0,437.0, you can have the best technology firewalls intrusion detection systems biometrics devices," Here is an extractive summary of Kevin Mitnick's statement:
+
+Despite having the best technology, including firewalls, intrusion detection systems, and biometric devices, human error or carelessness can still compromise an organization's entire system",0.47668167633137165
+82,82,461.0,470.0, so jim anderson came out with this very interesting definition of information security," According to Jim Anderson, this definition is the foundation of information security",0.5328647212584572
+84,84,477.0,484.0, a well informed sense of assurance that the information risks and controls are in balance, It's essential to have a balanced sense of assurance that risks and controls are in place to mitigate every potential risk,0.43843576933913636
+86,86,489.0,495.0, i take a risk i have enough checks and balances to control it," This means having checks and balances in place to control each risk, ensuring that information is secure",0.47075177296660237
+93,93,526.0,532.0, there were groups developing code breaking computations during world war ii which created," During World War II, groups were already working on code-breaking computations, which led to the creation of the first modern computers",0.6318591401129263
+95,95,536.0,543.0, physical controls at that point to secure these computing machines which actually stored," As computing machines began to store sensitive information, physical controls were established to secure these systems",0.4862949314640623
+101,101,565.0,572.0, so the physical controls were read at to limit access to authorized persons to sensitive," Physical controls were implemented to limit access to authorized personnel only, and only basic measures were taken to prevent physical theft, espionage, and sabotage",0.4669296104712472
+109,109,611.0,618.0, this was basically headed by larry roberts who has developed the project from its inception," Larry Roberts, a key contributor to the internet, led the project from its inception",0.5384557509880922
+115,115,654.0,663.0, the aarpa net actually grew in popularity between the 70s and the 80s as and so were the," As it grew in popularity between the 1970s and 1980s, concerns about misuse arose",0.4247703724968378
+118,118,672.0,679.0, first and foremost there was no safety procedures for dialogue collections and user identification," The fundamental security issues identified during this period included the lack of safety procedures for data collections, user identification, and authorization to the system",0.4234312357708981
+126,126,725.0,733.0, then came out the r609 which is called the rand report which formed the first report on," Here is an extractive summary:
+
+The Rand Report, the first report on computer security, marked the beginning of a broader scope of computer security",0.4560619019443838
+135,135,780.0,787.0, aarpa where people started sharing the systems and the moment they started sharing then," Here is an extractive summary of the input:
+
+The concept of sharing computer resources evolved from Locke's idea of non-sharing, to the ARPANET, where people began sharing systems",0.4060850443577821
+140,140,808.0,815.0, accessing the computer and that the first notions of that was reflected in this rand report," Here is an extractive summary:
+
+The Rand Report, the first report on computer security, marked the beginning of a broader scope of computer security",0.42404011155912014
+142,142,822.32,831.0, in the 1990s networks of computers became more common in the civilian sector and so so did," Here is an extractive summary of the input:
+
+In the 1990s, the rise of computer networks in the civilian sector led to a growing need to connect them, resulting in the development of the internet",0.42716455788964813
+146,146,846.8399999999999,855.28, as a low priority because information that is stored in the computer can be sensitive," However, as the internet expanded, security was initially overlooked as a low priority, as people did not fully realize the sensitivity of the information stored in computers",0.4318565293593283
+155,155,902.6,908.92, so the ability to secure each now influenced by the security on every computer to which, The security of each system is influenced by the security of every computer it is connected to,0.5570741952460305
+156,156,909.0,910.56, it is connected, The security of each system is influenced by the security of every computer it is connected to,0.5035009378122459
+166,166,982.12,988.12, and privacy and confidentiality and availability," With this comes the need for robust security measures, encompassing confidentiality, availability, and privacy",0.4749324830159757
+170,170,1014.04,1021.04, the privacy availability confidentiality integrity of the trillions of trillions of data," Here is an extractive summary of the input:
+
+A new process, procedure, or technology is being developed to provide a high level of security, assurance, and confidence to millions of users regarding the privacy, availability, confidentiality, and integrity of trillions of data they use",0.49680156072239806
+175,175,1052.36,1059.36, new system and the entire system is to come out with a new system and the entire system is to come out with a new system," Here is an extractive summary of the input:
+
+The input text appears to be a recursive statement, where the entire system is repeatedly described as coming out with a new system",0.4743811951100979

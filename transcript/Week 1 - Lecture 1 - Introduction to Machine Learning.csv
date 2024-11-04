@@ -1,0 +1,149 @@
+,start,end,text
+0,0.0,22.96," Hello, Riba and welcome to this NPTEL course on an introduction to machine learning. In"
+1,22.96,30.400000000000002," this course, we will have a quick introduction to machine learning and this will not be very"
+2,30.400000000000002,35.96," deep in a mathematical sense, but it will have some amount of mathematical trigger. And"
+3,35.96,42.08, what we will be doing in this course is covering different paradigms of machine learning and
+4,42.08,47.84, with special emphasis on classification and regression tasks and also will introduce you
+5,47.84,55.120000000000005," to various other machine learning paradigms. In this introductory lecture, set of lectures,"
+6,55.120000000000005,61.440000000000005," I will give a very quick overview of the different kinds of machine learning paradigms. And therefore,"
+7,61.440000000000005,68.48," I call this lectures machine learning a brief introduction with emphasis on brief. So,"
+8,68.48,74.88, the rest of the course would be a more elongated introduction to machine learning.
+9,74.88,82.24," So, what is machine learning? So, I will start off with a canonical definition put out by Tom"
+10,82.24,92.8," Mitchell in 97. So, a machine or an agent, I deliberately leave the beginning undefined because"
+11,92.8,99.28," you could also apply this to non machines like biological agents. So, an agent is set to learn"
+12,99.36,107.68, from experience with respect to some class of tasks and the performance measure P if the
+13,107.68,114.32000000000001, learner's performance at tasks in the class as measured by P improves with experience.
+14,115.52000000000001,123.12," So, what we get from this? First thing is we have to define learning with respect to a specific"
+15,123.12,130.32, class of tasks. It could be answering exams in a particular subject or it could be diagnosing
+16,132.16,138.96, patients of a specific illness. But we have to be very careful about defining the set of tasks
+17,138.96,145.20000000000002, on which you are going to define this learning. And the second thing we need is kind of a performance
+18,145.20000000000002,151.76," measure P. So, in the absence of a performance measure P, you would start make vague statement like,"
+19,151.92,157.28, I think something is happening right that seems to be a change and something learned there is some
+20,157.28,164.64," learning going on and stuff like that. So, if you want to be more clear about measuring whether"
+21,164.64,169.35999999999999," learning is happening or not, you first need to define some kind of a performance criteria."
+22,170.16,175.6," So, for example, if you talk about answering questions in exam, your performance criterion could"
+23,175.6,183.04," very well be the number of marks that you get or if you talk about diagnosing illness,"
+24,183.04,188.72, then your performance measure would be the number of patients that you save or the number of
+25,189.6,194.16, patients who did not have adverse reaction to the drugs you gave them. There could be a variety of
+26,194.16,197.28, ways of defining performance measures depending on what you are looking for.
+27,198.32,205.28," And the third important component here is experience. So, with experience the performance has"
+28,205.28,211.76," to improve. And so, what we mean by experience here in the case of writing exams, it could be"
+29,211.76,216.32," writing more exams. So, the more the number of exams you write, the better you write it,"
+30,216.32,223.68," the better you get it is taking or it could be patients in the case of diagnosing illnesses,"
+31,223.68,229.36, the more patients that you look at the better you become at diagnosing illness.
+32,230.24,234.64," So, these are the three components. So, you need a class of tasks, you need a performance"
+33,234.64,243.27999999999997," measure and you need some well-defined experience. So, this kind of learning, where you are learning"
+34,244.32,253.11999999999998," to improve your performance based on experience is known as this kind of learning, where you are"
+35,253.11999999999998,258.0, trying to learn to improve your performance with experience is known as inductive learning.
+36,258.64,265.92," And the basis of inductive learning goes back several centuries, people have been debating"
+37,265.92,273.52, about inductive learning for hundreds of years now. And really more recently we have started to have
+38,274.48,283.52," more quantified mechanisms of learning. But one thing I always point out to people is that,"
+39,283.52,287.6," if you take this definition with the pinch of salt. So, for example, you could"
+40,288.08,300.0," think about the task as fitting your foot comfortably. So, you could talk about whether a"
+41,300.0,310.24," slipper fits your foot comfortably or let me. So, I always say that you should take this definition"
+42,310.32,317.2," with a pinch of salt because, take the example of a slipper. So, the slipper is"
+43,318.0,323.68," supposed to give protection to your foot and performance measured for the slipper would be,"
+44,323.68,330.08, whether it is fitting the leg comfortably or not or whether it is as people say that is biting
+45,330.08,337.52, your leg or is it chaffing your feet. And with experience as the slipper knows more and more about
+46,337.52,342.32," your foot as you keep wearing the slipper for longer periods of time, it becomes better at the"
+47,342.32,347.84, task of fitting your foot right as measured by whether it is chaffing your foot or whether it
+48,347.84,353.2," is biting your foot or not right. So, would you say that the slipper is learned to fit your foot"
+49,355.59999999999997,361.84," well by this definition yes right. So, we have to take this with a pinch of salt and so not"
+50,362.71999999999997,370.0, every system that confirms to this definition of learning can be set to learn usually.
+51,372.15999999999997,377.12," So, going on so there are different machine learning paradigms that we will talk about and the first"
+52,377.12,385.52," one is supervised learning where you learn an input to output map right. So, given some kind of"
+53,385.52,391.59999999999997, an input it could be a description of the patient who comes to comes to the clinic and the output
+54,391.76000000000005,395.84000000000003," that how to produce is whether the patient has a certain disease or not right. So, this at learn"
+55,395.84000000000003,401.04, this kind of an input to output map or the input could be some kind of a question right and then
+56,401.04,405.20000000000005, the output would be the answer to the question or it could be a true or false question I give you
+57,405.20000000000005,409.68, a description of the question you had to give me true or false is the output. And in supervised
+58,409.68,415.6, learning what you essentially do is learn a mapping from this inputs to the required output right.
+59,415.6,420.88, If the output that you are looking for happens to be a categorical output like whether he has a
+60,420.88,425.36, disease or does not have a disease or whether the answer is true or false then the supervised learning
+61,425.36,431.68, problem is called a classification problem right. And if the output happens to be a continuous
+62,431.68,438.64, value like so how long will this product last before it fails right or what is the expected
+63,438.64,444.0," rainfall tomorrow right. So, these kinds of problems they would be called as regression problems"
+64,444.0,449.76, right. These are supervised learning problems where the output is a continuous value and these are
+65,449.76,453.44," called as regression problems right. So, we will look at in more detailed classification"
+66,453.44,458.32," and regression as we go on right. So, the second class of problems are known as unsupervised"
+67,458.32,464.0, learning problems right where the goal is not really to produce an output in response to an input
+68,464.0,469.92," but given a set of in data right we have to discover patterns in the data right. So, that is more"
+69,469.92,476.0, of that that is called unsupervised learning there is no real desired output that we are looking for
+70,476.48,481.92," you are more interested in finding patterns in the data right. So, clustering right is one"
+71,482.48,487.76, a task one unsupervised learning task where you are interested in finding cohesive groups
+72,487.76,493.76," among the input patterns right. So, for example, I might be looking at customers who come to my shop"
+73,493.76,498.08," right and I want to figure out if there are categories of customers right. So, maybe college students"
+74,498.08,503.2," could be one category and so, A&I-T professionals could be another category and so on so forth."
+75,503.2,507.92," I mean when I am looking at this kinds of grouping in my data. So, I would call that as a clustering"
+76,507.92,513.92," task right. So, the other popular unsupervised learning paradigm is known as association rule"
+77,513.92,519.52, mining or frequent pattern mining where you are interested in finding frequent co-occurrence
+78,519.52,526.56," of items right in the data that is given to you. So, whenever A comes to my shop B also comes"
+79,526.56,533.68," to my shop right. So, those kinds of co-occurrence so, I can always say that if I see A then that is"
+80,533.68,538.4799999999999," likely very likely that B is also in my shop somewhere you know. So, I can learn this kinds of"
+81,538.4799999999999,545.1999999999999, associations between data right and again we look at this later in more detail and this are I mean
+82,545.1999999999999,550.4," there are many different variants on supervised unsupervised learning, but these are the main ones"
+83,550.4,555.1999999999999," that we look at. So, the third form of learning which is called reinforcement learning"
+84,555.2800000000001,561.0400000000001, it is neither supervised nor unsupervised in nature and typically these are problems where you are
+85,561.0400000000001,565.6800000000001, learning to control the behavior of a system and I will give you more intuition into reinforcement
+86,565.6800000000001,576.1600000000001," learning in one of the later modules right. So, like I said earlier so, for every task right. So,"
+87,576.1600000000001,580.32," you need to have some kind of a performance measure. So, if you are looking at classification"
+88,580.4000000000001,585.5200000000001," the performance measure is going to be classification error. So, typically right. So, we will talk about"
+89,586.24,591.84," many many different performance measures in the duration of this course, but the typical performance"
+90,591.84,596.72," measure you would want to use is classification error right. So, how many of the items or how many of"
+91,596.72,601.36," the patients did I get incorrect. So, how many of them who are not having the disease"
+92,601.36,605.84," detect predict had the disease and how many of them that had the disease that I missed right. So,"
+93,605.84,610.0, that would be one of the measures that I would use and that would be the measure that we want to
+94,610.48,618.24," use, but we will see later that often that is not possible to actually learn directly with respect"
+95,618.24,624.4," to this measure. So, we use other forms right and likewise for regression again. So, we have the"
+96,624.4,630.88, the prediction error. Suppose I say it is going to rain like 23 millimeters and then it ends up
+97,630.88,637.92," raining like 49 centimeters I do not know. So, that is a huge huge prediction error right."
+98,638.48,645.76," And in terms of clustering. So, this is a little becomes a little trick here to define performance"
+99,645.76,650.96, measures. We do not know what is a good clustering algorithm because we do not know what how to measure
+100,650.96,656.48," the quality of clusters. So, people come up with all different kinds of measures and so one of the"
+101,656.48,664.48, more popular ones is scatter or spread of the cluster that essentially tells you how spread out
+102,664.48,669.28, the points are that belong to a single group. If you remember we are supposed to find cohesive
+103,669.28,674.24," groups. So, if the group is not that cohesive it is not all of them are not together then you"
+104,674.24,680.4, would say the clustering is of a poorer quality right. And if you have other ways of measuring
+105,680.48,686.4," things like I like we are telling you. So, if you know that people are college students right and"
+106,686.4,691.84," then you can figure out that how many what fraction of your cluster or college students. So,"
+107,691.84,696.56," you can do this kinds of external evaluations. So, one measure that people use popularly there is"
+108,696.56,701.6, known as purity right. And in the association rule mining we use a variety of measures called
+109,701.6,705.28," support and confidence. It takes a little bit of work to explain support and confidence. So,"
+110,706.0,712.88, different and I talk about association rules in detail. And in more in the reinforcement
+111,712.88,717.04," learning task. So, if you remember I told you it is learning to control. So, you are going to have"
+112,717.04,722.9599999999999," a cost for controlling the system. And so, the measure here is cost and you would like to minimize"
+113,722.9599999999999,728.24," the cost that you are going to accrue while controlling the system. So, these are the basic"
+114,728.24,733.4399999999999," machine learning tasks. So, there are several challenges when you are trying to build a"
+115,733.5200000000001,738.96," build a machine learning solution right. So, a few of these I have listed on this slide right."
+116,738.96,743.6800000000001, The first one is you have to think about how good is a model that you have learned right.
+117,743.6800000000001,749.6," So, I talked about a few measures on the previous slide. But often those are not sufficient."
+118,749.6,754.32, There are other practical considerations that come into play. And we will look at some of these
+119,754.32,762.8000000000001, towards the middle of the course somewhere right. And the bulk of the time would be spent on
+120,763.5200000000001,768.08," answering the second question which is how do I choose a model right. So, given some kind of"
+121,768.08,773.2800000000001," data which will be the experience that we are talking about. So, given this experience how would"
+122,773.2800000000001,779.2," I choose how would I choose a model right that somehow learns what I want to do right. So,"
+123,779.2,783.5200000000001," how that improves itself with experience and so on. So, how do I choose this model and how do I"
+124,783.5200000000001,787.6800000000001, actually find the parameters of the model that gives me the right answer right.
+125,788.4000000000001,792.8800000000001," So, this is what we will spend much of our time on in this course. And then there are a whole"
+126,792.88,798.32, bunch of other things that you really have to answer to be able to build a useful
+127,799.2,804.96, machine I mean useful data analytics or data mining solutions. Questions like do I have enough
+128,804.96,811.28, data do I have enough experience to say that my model is good right. Is the data is
+129,811.28,816.16, is it of sufficient quality that could be errors in the data right. Suppose I have medical data
+130,816.16,821.36," and age is recorded as 225. So, what does that mean it could be 225 days in which case it is a"
+131,822.08,828.0, reasonable number it could be 22.5 years which again it is a reasonable number or 22.5 months
+132,828.0,833.36," it is reasonable. But if it is 225 years it is not a reasonable number so, there is something wrong"
+133,833.36,839.36," in the data right. So, how do you handle these things or noise in images right or missing values."
+134,839.36,845.9200000000001," So, I will talk briefly about handling missing values later in the course. But this is as I mentioned"
+135,846.0,851.8399999999999, in the beginning is a machine learning course right. And it is not there is not primarily it is
+136,851.8399999999999,856.3199999999999, primarily concerned about the algorithms of machine learning and the and the math and the
+137,856.3199999999999,862.64, intuition behind those and not necessarily about the questions of building a practical systems
+138,862.64,868.3199999999999," based on this. So, I will be talking about many of these issues during the course. But just that"
+139,868.3199999999999,874.9599999999999," I want to read right that will not be the focus right. And so, the next challenge I have listed"
+140,875.0400000000001,881.2, here is how confident can I be of the results. And what that I certainly will talk a little bit
+141,881.2,889.6, because the whole premise of reporting machine learning results depends on how confident you can
+142,889.6,895.44," be of the results right. And the last question am I describing the data correctly. So, that is"
+143,895.44,904.0, a very very domain dependent and and and the question that you can answer only with your experience
+144,904.0,909.68, as a machine learning or a data data science is professional or with with with time right.
+145,909.68,914.32," So, but there are typical questions that you would like to ask that are there on the slides."
+146,915.44,920.64," So, from the next in the next module we will look at the different learning paradigms in"
+147,921.68,928.48, slightly more detail.

@@ -1,0 +1,45 @@
+,Unnamed: 0,start,end,text,best_match,similarity_score
+0,0,0.0,23.2,hello welcome first weeks lecture course introduction operating,hello welcome first weeks lecture course introduction operating,0.9999999999999999
+1,1,23.2,31.32,systems week building platform course upon following,systems week building platform course upon following,1.0000000000000002
+8,8,75.44,83.92,gates gates would include several digital logical gates gate xor,browsers microsofts generators hybrids music charts pengisian several ironting system komputer oscidettion informasi online cups obtaintain stops billion discovery change goalmaker httplsunk ipods gates gates gate xor,0.4011079841138587
+9,9,83.92,92.76,included particular layer various things like memory cells flip,included use vlsi units organized various time like memori cells flip,0.5187023918505284
+10,10,92.76,102.04,flops registers basic vlsi units organized various,included use vlsi units organized various time like memori cells flip,0.4615637119868963
+24,24,207.96,216.2,operating system detail let us start simple program program,operating system detail let us start simple program program,1.0
+25,25,216.2,223.24,written c language essentially going print string hello world onto,written c language essentially going print check hello world stored,0.7909627061109916
+26,26,223.24,231.0,monitor simple program essentially string hello world stored,require things like knowing memori hello hello world stored,0.4022795540966996
+34,34,291.88000000000005,298.84000000000003,along copying string hello world video buffer attributes added,along copying pis hello world video buffer attributes added,0.8841259914417448
+40,40,342.2,347.56,fact quite complex well tedious imagine every program write would,fact quite complex well tedious imagine every program write will,0.9063155339559944
+41,41,347.56,355.72,require things like knowing memory hello world stored,require things like knowing memori hello hello world stored,0.8608825381865733
+42,42,356.44,362.68,actually display onto monitor compute coordinates specify color,actually display compute coordinates specify color,0.9063437874364602
+45,45,378.92,385.8,example processor changes graphics card monitor changes quite likely,depth attributes changes quete likely,0.428503033014607
+48,48,401.32,409.4,perhaps way coordinates set depth color set string,perhaps way coordinates set depth color set string,1.0
+57,57,475.72,482.12,x coordinates need set would done internally operating system,x coordinates need set addacted,0.5225751379320679
+61,61,509.64,516.04,essentially applications reuse operating system functionality mean,andipeble functionality mean,0.5528226326992294
+63,63,524.76,530.5999999999999,system could reuse operating systems features example,system could reuse operating system os,0.6477731018249551
+66,66,547.4799999999999,553.64,handles printfs applications executing system,handles printfs aplikasi laptop compiled appropriately also,0.4634879581785945
+69,69,572.36,581.1600000000001,could run desktop instance server laptop compiled appropriately also,handles printfs aplikasi laptop compiled appropriately also,0.4955242673690576
+73,73,604.76,611.0,essentially applications change even though underlying hardware changes,varies change even though underlying hardware download and emotion system resource manager desktops laptops,0.49171448850756116
+74,74,613.08,618.9200000000001,second use operating system resource manager desktops laptops,varies change even though underlying hardware download and emotion system resource manager desktops laptops,0.5041947828098322
+79,79,647.8,654.3599999999999,applications running system underlying hardware constrained essentially,applications running system underlying software constrained essentially,0.8809586010870839
+83,83,677.7199999999999,686.12,operating system manages example cpu memory network secondary storage devices,very spicted goal network secondary storage devices,0.542164555480322
+85,85,693.72,701.4,restricted amount may typically around 2 4 8 cpus present system,usount may typically around 2 4 cpus addelle chiponents,0.49259047744420276
+88,88,719.48,726.28,components present system share components among several applications almost,components among several applications almost,0.8314898256304316
+91,91,743.4,749.72,essentially underlying way operating system designed,applications running system underlying software constrained essentially,0.4339581413819843
+92,92,750.28,757.88,every component system adequately utilized take example let us consider cpu,essentially time itaquately utilized take example let us consider cpu designeddotstot share limited his hisyam cpu and forly diakses middlebroteled hand holding software addelling cpu add sporting systems syndical grace crisilly hardurrent take jake,0.4229039134221633
+93,93,758.92,766.52,systems typically would one two cpus multiple applications executing cpu,addicks take and hughes add remote theoqua wo cpus multiple applications executing cpu,0.42221789142144883
+101,101,827.8,835.64,efficient way things see later video see,efficient way nothing see later video see,0.8567537097379032
+109,109,890.68,899.9599999999999,spite sharing limited hardware resources among various applications,spite sharing limited hardware software resources among various applications,0.948245071128931
+110,110,899.96,906.44,executing computer system sharing done way applications,executing computer system sharing done way applicationssot isolation required let us consider,0.6065716325358269
+114,114,928.6,936.6,isolation required take example isolation required let us consider,executing computer system sharing done way applicationssot isolation required let us consider,0.6080178044798064
+117,117,949.8,957.48,executing application one hand application two may gaming software,two may gaming software,0.6462268566143518
+124,124,1001.56,1009.48,easy thing operating systems ubiquitous almost every smart device,application one word operating system ubiquitous almost every device,0.5497850776609396
+128,128,1029.24,1037.72,example embedded os contiki operating systems contiki os designed,various classification operating systems depending systemelin addedded os contiki os keyboards used internet cris,0.4023580854618508
+141,141,1126.52,1137.8,instance monitors lcd screens key pads words mobile os also,instance monitors lcd screens key pads excels mobile os also,0.8610047541033773
+143,143,1147.56,1155.9599999999998,system rtos real time operating systems examples qnx,system rtos real time operating systems os kita important example qnx,0.72239141468469
+149,149,1197.9599999999998,1204.4399999999998,operating systems used secure environments examples,operating systems used secure environments examplesdotessally utilized applications,0.6632748318281605
+151,151,1212.36,1220.12,security extremely critical example could web servers host,security and web servers host,0.6991405458465771
+152,152,1220.12,1225.96,banking software classes operating systems,software,0.4250423039990525
+153,153,1225.96,1233.4,quite familiar used servers desktops red hat ubuntu,banking system os oss desktops red hat ubuntu,0.5763578924102826
+157,157,1254.68,1261.88,operating system studying course xb6 os designed,operating system studying course xb6 os small well documented easy understand,0.589484580071624
+158,158,1261.88,1272.44,mit specifically teaching purposes xb6 os small well documented easy understand,operating system studying course xb6 os small well documented easy understand,0.6271898575028468
+161,161,1292.6799999999998,1300.36,therefore understanding xb6 would give nice insight modern day operating systems,google thank nice insight modern day theo lab,0.4838683950593451

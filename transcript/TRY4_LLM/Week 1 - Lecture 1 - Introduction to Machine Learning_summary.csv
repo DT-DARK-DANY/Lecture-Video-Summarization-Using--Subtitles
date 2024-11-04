@@ -1,0 +1,44 @@
+,Unnamed: 0,start,end,text,best_match,similarity_score
+3,3,35.96,42.08, what we will be doing in this course is covering different paradigms of machine learning and,"Here is a concise extractive summary:
+
+The course ""Introduction to Machine Learning"" by NPTel provides an overview of machine learning, covering different paradigms with a focus on classification and regression tasks",0.40267093736777304
+11,11,92.8,99.28, you could also apply this to non machines like biological agents so an agent is set to learn, This agent is a biological or non-biological entity that learns from experience,0.41205752220380665
+15,15,123.12,130.32, class of tasks it could be answering exams in a particular subject or it could be diagnosing," To define learning, a specific class of tasks must be identified, such as answering exams in a particular subject or diagnosing patients with a specific illness",0.5223501465827431
+42,42,310.32,317.2, with a pinch of salt because take the example of a slipper so the slipper is," The definition should be taken with a grain of salt, as the example of a slipper illustrates",0.458701961821515
+46,46,337.52,342.32, your foot as you keep wearing the slipper for longer periods of time it becomes better at the," It is suggested that as the slipper is worn for longer periods, it becomes more adept at fitting the foot correctly, as measured by the absence of chafing or biting",0.4712684632652347
+52,52,377.12,385.52, one is supervised learning where you learn an input to output map right so given some kind of," Here is an extractive summary of the input:
+
+Supervised learning is a machine learning paradigm where a system learns an input-to-output map by being trained on labeled data",0.4353920311360181
+53,53,385.52,391.6, an input it could be a description of the patient who comes to comes to the clinic and the output,", a patient's description) and an output (e",0.4811399408640379
+56,56,401.04,405.2000000000001, the output would be the answer to the question or it could be a true or false question i give you,"
+
+So, please provide the description of the question, and I'll respond with a ""True"" or ""False"" output",0.441185144415283
+57,57,405.2000000000001,409.68, a description of the question you had to give me true or false is the output and in supervised,"
+
+So, please provide the description of the question, and I'll respond with a ""True"" or ""False"" output",0.5025813682327052
+62,62,431.68,438.64, value like so how long will this product last before it fails right or what is the expected," On the other hand, a regression problem occurs when the output is a continuous value, such as a prediction of how long a product will last or the expected rainfall tomorrow",0.4585292763276038
+67,67,458.32,464.0, learning problems right where the goal is not really to produce an output in response to an input," Here is an extractive summary:
+
+Unsupervised learning is a type of machine learning problem where the goal is not to produce an output in response to an input, but to discover patterns in the given data",0.6539707479586343
+68,68,464.0,469.92, but given a set of in data right we have to discover patterns in the data right so that is more," Here is an extractive summary:
+
+Unsupervised learning is a type of machine learning problem where the goal is not to produce an output in response to an input, but to discover patterns in the given data",0.42451833017603413
+77,77,513.6800000000001,519.52, rule mining or frequent pattern mining where you are interested in finding frequent cooccurrence," Here is an extractive summary of the input:
+
+Association Rule Mining, also known as Frequent Pattern Mining, involves finding frequent co-occurrences of items in given data",0.6231684892682536
+90,90,591.84,596.72, measure you would want to use is classification error right so how many of the items or how many of," Here is an extractive summary:
+
+The typical performance measure for classification is classification error, which measures how many items or patients were misclassified",0.49576212541177855
+101,101,656.48,664.48, more popular ones is scatter or spread of the cluster that essentially tells you how spread out," Various measures have been proposed, including the scatter or spread of a cluster, which assesses how spread out the points are within a single group",0.5042294824339691
+109,109,701.6,705.28, support and confidence it takes a little bit of work to explain support and confidence so, They explain that support and confidence are distinct and require some effort to understand,0.4423446587595433
+112,112,717.04,722.9599999999999, a cost for controlling the system and so the measure here is cost and you would like to minimize, The goal is to minimize the cost while controlling the system,0.6541367824006519
+113,113,722.9599999999999,728.24, the cost that you are going to accrue while controlling the system so these are the basic, The goal is to minimize the cost while controlling the system,0.5384994078714523
+130,130,816.16,821.36, and age is recorded as 225 so what does that mean it could be 225 days in which case it is a," For example, in medical data, an age recorded as 225 could be a mistake, potentially representing 225 days rather than years",0.494490479211463
+131,131,822.08,828.0, reasonable number it could be 225 years which again it is a reasonable number or 225 months," They mention that a reasonable number could be 225 years, but if the data contains missing values, this number is not reasonable",0.6146835563804953
+132,132,828.0,833.36, it is reasonable but if it is 225 years it is not a reasonable number so there is something wrong," They mention that a reasonable number could be 225 years, but if the data contains missing values, this number is not reasonable",0.5475393746349702
+134,134,839.36,845.52, so i will talk briefly about handling missing values later in the course but this is as i," The speaker notes that handling missing values will be discussed later in the course, but the focus of the course is primarily on machine learning",0.5595525934469034
+136,136,851.4399999999999,856.16, it is it is primarily concerned about the algorithms of machine learning and the and the math and," Here is an extractive summary of the input:
+
+The course will delve into the algorithms of machine learning, exploring the math and intuition behind them",0.4076160476175345
+144,144,901.44,907.36, can answer only with your experience as a machine learning or a data data science as professional, Only experienced machine learning and data science professionals can answer this question with certainty,0.533193695080197
+146,146,913.52,919.28, are there on the slides so from the next in the next module we will look at the different," Typical questions to ask when working with data include those listed on the slides, and the next module will explore different learning paradigms in more detail",0.4329217169163838

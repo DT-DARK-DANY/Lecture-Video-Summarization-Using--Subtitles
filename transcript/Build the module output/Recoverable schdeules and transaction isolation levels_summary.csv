@@ -1,0 +1,52 @@
+,Start Time,End Time,Cleaned Text,Score
+0,185.6,196.6,schedul transact schedul sequenc oper total transact,0.4449002978447495
+1,225.6,231.6,complet could commit may even abort,0.4021473317778441
+2,231.6,238.6,commit go ahead ask commit realli treat work,0.3849428424810425
+3,238.6,248.6,one abort move also abort read,0.46470387945673514
+4,425.6,431.6,okay consist cours programm respons,0.44441670401101685
+5,451.6,458.6,know undo lot effort done databas,0.40249996730995874
+6,458.6,467.6,context schedul introduc notion call cascad list schedul,0.38360045253949365
+7,467.6,477.6,cascad list schedul kind schedul need cascad role back,0.3932403419912167
+8,487.6,491.6,acr basic say avoid cascad role,0.40611429480252353
+9,511.6,514.6,know transact know,0.7382393272608875
+10,554.6,559.6,put restrict say commit transact,0.4307407911378749
+11,559.6,572.6,schedul schedul everi transact sure know commit transact read commit,0.3859254016712453
+12,572.6,575.6,recover becom right,0.5732564774926744
+13,575.6,584.6,commit read item modifi transact wait commit cut,0.3808272776045621
+14,584.6,586.6,recover take advantag,0.5700325132183811
+15,597.6,603.6,sure commit come,0.5667263743977249
+16,630.6,632.6,lock schedul hand,0.5538229428760182
+17,632.6,640.6,dictat two pl appropri chang,0.44302428366303587
+18,675.6,677.6,take correct act,0.5728134277784963
+19,677.6,682.6,assum transact get doubl futur,0.43097132285502254
+20,682.6,685.6,optimist way,0.7038266479250973
+21,715.6,718.6,intuit,1.0
+22,769.6,773.6,time releas lock,0.5710389620936169
+23,784.6,794.6,case keep lock till commit ok,0.39538166272333714
+24,854.6,859.6,elimin know success otherwis littl,0.4396727261761259
+25,887.6,896.6,moment moment start releas lock ask lock said,0.42087483402639364
+26,1005.6,1009.6,guarante transact system perfectli well,0.43190249071521836
+27,1022.6,1025.6,strictest isol level serializ,0.4850291813581672
+28,1034.6,1046.6,lower isol level avail choos run choos run risk,0.39294397780285073
+29,1058.6,1066.6,may matter simpli comput know guess,0.40208195096131844
+30,1066.6,1071.6,one particular isol level call uncommit,0.40261903724822484
+31,1083.6,1093.6,actual pick data read allow modifi anyth data,0.39104814826521644
+32,1094.6,1099.6,transact end either comment roll,0.43115572823042514
+33,1099.6,1106.6,isol level transact isol level,0.5964922198609448
+34,1108.6,1114.6,highest isol level serializ schedul,0.43698049447304876
+35,1123.6,1126.6,call read uncommit,0.5590062878062122
+36,1126.6,1132.6,lowest level isol one use danger level,0.4183402277311935
+37,1132.6,1138.6,sql allow run read transact mode,0.39439424489239655
+38,1144.6,1152.6,problem might aris read might aris unrepeat read might aris also call panton,0.3945845022341874
+39,1152.6,1159.6,panton realiz shortli talk littl bit panton,0.4254159753423963
+40,1174.6,1186.6,repeat read dirti data read read repeat panton might occur,0.4099644640626505
+41,1186.6,1189.6,tell panton,0.6989326212021879
+42,1201.6,1207.6,problem panton someth like,0.49866612363549856
+43,1219.6,1222.6,exampl part panton,0.5728750364930103
+44,1245.6,1250.6,start lock certain item go use,0.4023147446518635
+45,1260.6,1263.6,suppos comput max mark know,0.44168478882792134
+46,1278.6,1287.6,thing cannot antitip thing take extra precaut,0.4183736836835127
+47,1293.6,1299.6,new thing lock exist time start,0.3997174266373295
+48,1351.6,1361.6,choos isol level see like level,0.4644807471406551
+49,1409.6,1414.6,cours taken taken one modul issu pretti disconnect,0.39099473025769205
+50,1431.6,1440.6,kind complet end cours formal thank,0.40379773293546156

@@ -1,0 +1,47 @@
+,Unnamed: 0,start,end,text,best_match,similarity_score
+0,0,0.0,22.96,hello riba welcome nptel course introduction machine learning,hello riba welcome nptel course introduction machine learning,0.9999999999999999
+1,1,22.96,30.4,course quick introduction machine learning,hello riba welcome nptel course introduction machine learning,0.4724333693399424
+3,3,35.96,42.08,course covering different paradigms machine learning,going different machine learning paradigms talk first,0.5047456149052558
+7,7,61.440000000000005,68.48,call lectures machine learning brief introduction emphasis brief,call rest co lecture set lectures time for refhassi brief,0.44278492269214675
+9,9,74.88,82.24,machine learning start canonical definition put tom,time canonical definition put tom,0.795312294125804
+10,10,82.24,92.8,mitchell 97 machine agent deliberately leave beginning undefined,mitchell 97 machine agent deliberately leave beginning undefined,1.0
+11,11,92.8,99.28,could also apply non machines like biological agents agent set learn,could also apply non machines like biological agents agent set learn,1.0000000000000002
+12,12,99.36,107.68,experience respect class tasks performance measure p,experience tasks plays performance measure add and diagnosing,0.4520935980924112
+17,17,138.96,145.20000000000002,going define learning second thing need kind performance,going define learning second thing need kind performance,1.0000000000000002
+21,21,164.64,169.36,learning happening first need define kind performance criteria,going define learning second thing need kind performance,0.5010416719935298
+22,22,170.16,175.6,example talk answering questions exam performance criterion could,measure p absence performance playspot person answering questions exam performance criterion muchthermang,0.5669611321956254
+34,34,244.32,253.12,improve performance based experience known kind learning,improve performance based experience known kind learning addy mathematies people,0.7538517314368018
+35,35,253.12,258.0,trying learn improve performance experience known inductive learning,improve performance based experience known kind learning addy mathematies people,0.4319630333809388
+39,39,283.52,287.6,take definition pinch salt example could,takeover pinch salt example could,0.6887181499620523
+41,41,300.0,310.24,slipper fits foot comfortably let always say take definition,slipper fitting foot comfortably let always say take definither real madrid rehed,0.6210329465388044
+42,42,310.32,317.2,pinch salt take example slipper slipper,takeover pinch salt example could,0.4832003934616157
+43,43,318.0,323.68,supposed give protection foot performance measured slipper would,pinch salt take example slipperbor supposed give protection foot performance measured talkfort whether people say biting,0.5290880434145117
+45,45,330.08,337.52,leg chaffing feet experience slipper knows,leg introter knows,0.47744044046592055
+51,51,372.16,377.12,going different machine learning paradigms talk first,going different machine learning paradigms talk first,1.0
+52,52,377.12,385.52,one supervised learning learn input output map right given kind,one supervised learning learn input output output map right given kind,0.9687828127294723
+55,55,395.84,401.04,kind input output map input could kind question right,one supervised learning learn input output output map right given kind,0.6096115643689193
+59,59,415.6,420.88,output looking happens categorical output like whether,google input ens categorical output like whether,0.5545160177412574
+61,61,425.36,431.68,problem called classification problem right output happens continuous,disease kamivised learning problem call addression problems output continuous,0.4135595546214461
+64,64,444.0,449.76,right supervised learning problems output continuous value,value,0.4384135641264934
+67,67,458.32,464.0,learning problems right goal really produce output response input,google justubsure play playtainment much muchther geother had quick quick sunther httppot right hand berhargated learning add s right goal really produce output response input,0.4753356912237993
+68,68,464.0,469.92,given set data right discover patterns data right,interestect patterns data right clustering right kita right wanted cohesive groups,0.4111618260997417
+70,70,476.48,481.92,interested finding patterns data right clustering right one,interestect patterns data right clustering right kita right wanted cohesive groups,0.48626443292874333
+75,75,503.2,507.92,mean looking kinds grouping data would call clustering,task inter ot mean looking kinds grouping data would calling,0.6020249368691499
+76,76,507.92,513.92,task right popular unsupervised learning paradigm known association rule,task right popular unsupervised learning paradigm known association rule,1.0000000000000002
+85,85,561.0400000000001,565.6800000000001,learning control behavior system give intuition reinforcement,learning control behavior system give intuition hes hesto widianto just kind performance measure break classification,0.5626154224461998
+91,91,596.72,601.36,patients get incorrect many disease,management searchspore est t patient get incorrect many disease,0.5958027896656666
+94,94,610.48,618.24,use see later often possible actually learn directly respect,detect andten possible actually learn directly respect addression error adds clustering wizard addicks measure use use forms right likewister ends,0.4534677089356483
+100,100,650.96,656.48,quality clusters people come different kinds measures one,addosition ot quality clusters people come different kinds one,0.7785970359089348
+106,106,686.4,691.84,figure many fraction cluster college students,popular one league remember supposed find cohesived groups inong duas scatter spread cluster and use play change figure many fraction cluster college students interasuring,0.5607517101762375
+109,109,701.6,705.28,support confidence takes little bit work explain support confidence,support confidence takes little bit work explain supporting talk association rules detail reinforcement,0.7178335666304485
+110,110,706.0,712.88,different talk association rules detail reinforcement,support confidence takes little bit work explain supporting talk association rules detail reinforcement,0.5271378318113666
+111,111,712.88,717.04,learning task remember told learning control going,tasks several warm recember told learning control control remote,0.44965789661029265
+118,118,749.6,754.32,practical considerations come play look,practical consideration come play look tend,0.6190637834510628
+119,119,754.32,762.8000000000001,towards middle course somewhere right bulk time would spent,towards middle course anywhere right bulk time itt,0.6277971117399062
+120,120,763.5200000000001,768.08,answering second question choose model right given kind,answering second question choose model right given kind,1.0
+122,122,773.2800000000001,779.2,choose would choose model right somehow learns want right,answering second question choose model right given kind,0.4216527560988704
+136,136,851.8399999999999,856.3199999999999,primarily concerned algorithms machine learning math,add for search bri rned algorithms machine learning math,0.4562490149442756
+137,137,856.3199999999999,862.64,intuition behind necessarily questions building practical systems,intuition behind necessarily questions building practical systems,1.0000000000000002
+144,144,904.0,909.68,machine learning data data science professional time right,http kita data science time right,0.6043172614778227
+146,146,915.44,920.64,next next module look different learning paradigms,newact module look different learning paradigms,0.578826784306494
+147,147,921.68,928.48,slightly detail,slightly detail lob dan assistent voiceliplipkey detail lainnya sk slider,0.536706138296102

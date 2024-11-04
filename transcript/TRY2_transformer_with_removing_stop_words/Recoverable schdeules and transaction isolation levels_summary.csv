@@ -1,0 +1,37 @@
+,Unnamed: 0,start,end,text,best_match,similarity_score
+0,0,0.0,29.6,today spend little short time trying wind course,kemarin spend little short time trying wind course,0.8335133795178447
+1,1,29.6,41.6,let points discuss today let sort repeat things last lecture,let points logs,0.4674763007583157
+7,7,103.6,114.6,meanwhile case reading dirty data meanwhile transaction read item x completed work,meanwhile case reading donto allowed time take out reclusion transaction breaktimely transowbe arena take over time baca completed work addee hes hester finish runover sentosely read dirty data,0.4392250421787975
+13,13,170.6,185.6,classic scenario get trouble isolated defined called recoverable schedules,classic scenario get trouble isolated called recoverable schedule sequence operations total transactions,0.6856072284614847
+14,14,185.6,196.6,schedule transaction schedule sequence operations total transactions,classic scenario get trouble isolated called recoverable schedule sequence operations total transactions,0.5791709347731646
+29,29,384.6,396.6,strict serializability definition include anything commits whereas also recoverability nothing interleaving operations things like,vibes friends realize transfer add berharga hildante dory mathematic use play playmaker downloaded protocol hestages link theorabe tropy use for change handusse ability definition include anything commits dimanaas also recoverability nothing interleaving operations things like,0.4564236807650393
+31,31,413.6,425.6,actually desirable properties especially asset properties icila collection know,and resparitas system able achieve desirable properties especially asset provuitt context icila collection know,0.6670404077335221
+34,34,451.6,458.6,know undo lot efforts done database,know undo lot efforts done database,1.0000000000000002
+36,36,467.6,477.6,cascading list schedules kind schedules need cascading role back,context contactules need cascading list schedulessot play playtekting role back,0.5085567884382624
+41,41,511.6,514.6,know transaction know,know,0.913438186262836
+42,42,514.6,531.6,cleverly modify working protocol way transactions running allowed items committed written,know ashley cleverly modify working protocol way transactions running allowed items committed written,0.9219242111388826
+46,46,559.6,572.6,schedule schedule every transaction surely know commit transactions read commit,surely commit come,0.512231866098269
+51,51,597.6,603.6,surely commit come,surely commit come,1.0
+56,56,640.6,652.6,locking based methods concurrency control notice ways achieving concurrency control especially time discuss,calling schider notice ways achieving concurrency control play playp based approaches concecially time haptual handscot dicernal grace disc seismic control and vibe traffic recoveryct hesterge dicocokpene dua pl approple keyssot menctate luc luctodeheteltage handsd urrency control,0.4011147455363323
+57,57,653.6,658.6,called time stamp based approaches concurrency control,time stamp based concurrency control actually also added optimistic way,0.5805712860245406
+58,58,658.6,675.6,time stamp based concurrency control actually also called optimistic concurrency control techniques sense let transactions run check whether everything proper,time stamp based concurrency control actually also added optimistic way,0.5906498028300162
+59,59,675.6,677.6,take corrective act,take corrective act,1.0
+60,60,677.6,682.6,assuming transactions get double future,and transactions get double future,0.7793032421231261
+61,61,682.6,685.6,optimistic way,time stamp based concurrency control actually also added optimistic way,0.49314197729511466
+64,64,715.6,718.6,intuition,intuition,1.0
+69,69,773.6,784.6,release locks transaction release locks chance transaction acquire lock item serve right,time release and transaction hequire lock item serve right,0.5758581140684881
+72,72,810.6,815.6,issue right cascaded list schedule serial arrived,commit released items not cascaded list schedule serial arrived,0.6328204666201511
+80,80,930.6,948.6,thats strict two days locking popular protocol using relational database terms achieves cascading less serializable schedules thats,dua days locking popular protocol using relational database terms achieves estactions sql work,0.5642638612552698
+84,84,1005.6,1009.6,guaranteed transaction system perfectly well,person theoret on system perfectly well,0.547644358815515
+85,85,1010.6,1022.6,practice sql would like give users option running transactions slightly relaxed isolation level,practice sql will like give users option running transactions slightly relaxed isolation level serializability add collect statistics aggregate something thank guess,0.6874397479311817
+92,92,1071.6,1083.6,actually dangerous sql take extra precaution allow read transactions run low isolation level,actually dangerous sql take extra precaution allow read transactions run low isolation level,1.0
+93,93,1083.6,1093.6,actually pick data reading allowed modify anything data,addy anything data,0.46697307251065795
+101,101,1138.6,1144.6,access mode automatically set read choose beside isolation level,management omatically set read choose beside isolation level,0.5827574980164596
+102,102,1144.6,1152.6,problems might arise read might arise unrepeatable reads might arise also called pantons,problems might arise unrepeatable reads wizard and recovery addons,0.6062991116948167
+109,109,1201.6,1207.6,problem pantons something like,funs uses aranteed none problem pantons something like,0.6107607676844884
+110,110,1207.6,1219.6,supposing transaction selected tuples based certain condition say example,supposing transaction selected tuples locked term partons,0.4894970917890016
+113,113,1231.6,1240.6,transaction t2 come picture update database within new tuple satisfies condition,any picture update database within new tuple satisfies condition addel muchek muchto even existing system might affect done t1 agendaed,0.5515169275717888
+118,118,1263.6,1278.6,kind rows get picture know transaction actually started running really call phantom rows kind come picture order move,synds addition id search andipely finds nastain items made me1 started fittain wizard actually he1 come timos sa2 come inover https for cresbobebe dony care get picture know transaction actually started running really call phantom rows kind come picture order move,0.6035675365359856
+119,119,1278.6,1287.6,things cannot antitiped things take extra precautions,things cannot antitiped things take extra precautions,1.0
+125,125,1340.6,1351.6,using techniques able solve issue phantoms content context,using techniques able solve issue phantoms content context,1.0
+132,132,1414.6,1431.6,lot details particular topic kind spend time enjoy reading little bit fascinating frame called data collection,guitar take siman lego line change holding recovery ails particular topic kind spend time enjoy reading little bit piernating frame called data collection,0.5979227619005799

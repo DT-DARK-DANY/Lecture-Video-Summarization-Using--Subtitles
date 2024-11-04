@@ -1,0 +1,12 @@
+,Unnamed: 0,start,end,text,best_match,similarity_score
+0,0,0.0,23.2,hello welcome first weeks lecture course introduction operating,hello welcome first weeks lecture course introduction operating,1.0
+1,1,23.2,31.32,systems week building platform course upon following,systems week building platform course upon following,1.0
+3,3,38.92,46.64,os particular look operating system actually fits entire,os particular look operating system actually fits entire,1.0
+4,4,46.64,53.92,computer also see essential role operating systems computer,computer also see essential role operating systems computer,1.0000000000000002
+5,5,53.92,62.16,look computer systems think different layers right,look computer systems think different layers right,1.0000000000000002
+6,6,62.16,68.68,bottom layer millions billions transistors transistors typically,bottom layer millions billions transistors transistors typically,1.0000000000000002
+9,9,83.92,92.76,included particular layer various things like memory cells flip,included particular layer various things like memory cells flip,1.0
+10,10,92.76,102.04,flops registers basic vlsi units organized various,flops registers basic vlsi units organized various,1.0
+11,11,102.04,112.28,forms build things like memory ram decode unit instruction fetch unit,forms build things like memory ram decode unit instruction fetch unit,1.0000000000000002
+13,13,120.12,127.72,hardware physical hardware actually purchase store,computer hardware physical hardware actually purchase store,0.9659491486346655
+14,14,127.72,134.92,purchase computer hardware could execute several different applications,purchase computer hardware could execute several different applications,1.0

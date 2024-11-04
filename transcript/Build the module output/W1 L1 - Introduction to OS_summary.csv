@@ -1,0 +1,70 @@
+,Start Time,End Time,Cleaned Text,Score
+0,23.2,31.32,system week build platform cours upon follow,0.3668827201690233
+1,31.32,38.92,week lectur depend upon particular lectur give brief introduct,0.36775488361165426
+2,46.64,53.92,comput also see essenti role oper system comput,0.3821814310187194
+3,53.92,62.16,look comput system think differ layer right,0.364955891485363
+4,62.16,68.68,bottom layer million billion transistor transistor typic,0.427170339963648
+5,68.68,75.44,cmo transistor transistor compos togeth build sever logic,0.3933062183100545
+6,75.44,83.92,gate gate would includ sever digit logic gate gate xor,0.4656803359349532
+7,92.76,102.04,flop regist basic vlsi unit organ variou,0.3748677430395034
+8,112.28,120.12,organ third layer comput system actual see,0.36724807627514494
+9,120.12,127.72,hardwar physic hardwar actual purchas store,0.45890762898326853
+10,134.92,143.8,instanc could offic applic internet explor sit,0.36816829085883146
+11,143.8,151.4,applic well hardwar oper system oper system,0.45108865444396773
+12,151.88,158.92000000000002,essenti would manag applic execut comput well would,0.38915628923778767
+13,165.48000000000002,175.32,oper system use entir scheme look broadli oper system use,0.37424982912681004
+14,184.76,192.84,hardwar abstract essenti use order turn hardwar someth,0.3866225480482481
+15,192.84,200.68,softwar applic util easili resourc manag requir,0.3681339380579766
+16,200.68,207.96,limit resourc present comput look two use,0.3763727564266631
+17,207.96,216.2,oper system detail let us start simpl program program,0.3589549642438483
+18,231.0,241.56,memori point pointer str printf pass pointer str would,0.39528559448283895
+19,251.08,259.0,string display onto monitor process involv get string,0.38774670930831845
+20,313.48,321.88,depth string copi video buffer read,0.4058229677678349
+21,321.88,331.0,graphic card would display monitor entir process,0.3730526418014833
+22,363.4,370.76,depth attribut exactli pass inform graphic card,0.3769583944004938
+23,378.92,385.8,exampl processor chang graphic card monitor chang quit like,0.3662872780242765
+24,385.8,393.8,program work exampl monitor chang may certain,0.374940879769072
+25,401.32,409.4,perhap way coordin set depth color set string,0.3924752707657603
+26,418.12,425.32,know nitti gritti detail hardwar essenti would need know,0.36444584717426043
+27,425.32,434.28,hardwar use system also variou aspect hardwar fit,0.383775973093362
+28,443.24,452.52,hardwar abstract nitti gritti detail hardwar applic,0.417854738271466
+29,483.56,491.3200000000001,applic perspect programm perspect detail abstract,0.4589505527161122
+30,516.04,524.76,sinc os abstract hardwar detail applic applic execut,0.37675759722401153
+31,524.76,530.5999999999999,system could reus oper system featur exampl,0.393640580901416
+32,547.4799999999999,553.64,handl printf applic execut system,0.41756773450024876
+33,555.16,563.7199999999999,third advantag portabl essenti mean write program,0.3756424517161404
+34,589.08,596.12,variou hardwar present would ensur printf would,0.4236075831061754
+35,597.0,604.76,execut appropri depend hardwar achiev portabl,0.39965245463390847
+36,604.76,611.0,essenti applic chang even though underli hardwar chang,0.3855683530961223
+37,633.0,639.8,program written also execut could use skype,0.3715706306683662
+38,639.8,647.8,powerpoint applic almost time fact could sever,0.3685239410183723
+39,647.8,654.3599999999999,applic run system underli hardwar constrain essenti,0.36111536341624845
+40,669.7199999999999,677.7199999999999,hardwar within comput hardwar sever compon,0.4647378945815957
+41,686.12,693.0,like hard disk monitor compon within comput,0.3734790800090985
+42,719.48,726.28,compon present system share compon among sever applic almost,0.3597458670517557
+43,743.4,749.72,essenti underli way oper system design,0.3924220353659564
+44,791.8,799.48,applic exampl applic one made execut processor applic,0.4457262052349539
+45,827.8,835.64,effici way thing see later video see,0.42455291416019925
+46,835.64,844.52,issu applic execut particular way see modern,0.3663413869514543
+47,859.64,867.32,applic almost concurr main memori order execut,0.36935864962653964
+48,867.32,873.1600000000001,applic need present main memori ram system,0.3641396580621718
+49,882.76,890.04,applic execut system make difficult oper system,0.38764299919406314
+50,899.96,906.44,execut comput system share done way applic,0.3644697963990171
+51,906.44,917.0,isol applic os ensur run sandbox environ,0.36693829406049716
+52,917.0,922.84,applic one know anyth applic two applic two,0.47704235863478817
+53,923.0,927.32,know anyth applic run system,0.42199617788651933
+54,928.6,936.6,isol requir take exampl isol requir let us consid,0.39924714480736523
+55,936.6,942.28,applic one web browser bank transact,0.3953711968051352
+56,957.48,964.12,let us assum viru malici applic,0.3970626200440846
+57,965.48,972.36,assum isol applic two would abl determin,0.36652708417213625
+58,972.44,980.12,applic one word malici applic abl determin,0.4029086274235444
+59,993.0,1001.56,ensur applic isol see,0.48635301033790657
+60,1029.24,1037.72,exampl embed os contiki oper system contiki os design,0.3870339619684262
+61,1070.6,1075.08,mani may familiar mobil oper system mobil os,0.3801722325288945
+62,1075.88,1081.32,exampl android io ubuntu touch window touch,0.42482656785665684
+63,1147.56,1155.9599999999998,system rto real time oper system exampl qnx,0.3603310050604388
+64,1197.9599999999998,1204.4399999999998,oper system use secur environ exampl,0.3856575536253625
+65,1220.12,1225.96,bank softwar class oper system,0.41769689149306843
+66,1240.68,1245.8000000000002,two oper system sever featur similar,0.38701792390248135
+67,1254.68,1261.88,oper system studi cours xb6 os design,0.3578123847669873
+68,1300.36,1311.4,linux thank,0.7040957133208565

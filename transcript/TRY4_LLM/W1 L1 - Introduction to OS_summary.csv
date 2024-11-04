@@ -1,0 +1,72 @@
+,Unnamed: 0,start,end,text,best_match,similarity_score
+6,6,62.16,68.68, bottom layer are millions and billions of transistors so these transistors are typically," Here is an extractive summary of the input:
+
+The bottom layer of a digital system consists of millions and billions of transistors, typically CMOS transistors",0.6915591709590949
+8,8,75.44,83.92, gates and these gates would include several digital logical gates such as the and gate or xor," These transistors are combined to form logical gates, including digital gates like AND and XOR",0.6819558660523668
+10,10,92.76,102.04, flops registers and so on now all these basic vlsi units are then organized into various," This layer also includes basic VLSI units such as memory cells, flip-flops, and registers",0.4965301207438032
+11,11,102.04,112.2, forms to build things like the memory ram the decode unit the instruction fetch unit and so on," Here is an extractive summary:
+
+The third layer of a computer system is the hardware, which includes components such as memory, the decode unit, and the instruction fetch unit",0.5928173358287787
+26,26,223.24,231.0, monitor so this is a very simple program and essentially the string hello world is stored in," A simple C program is used as an example to illustrate the operating system's role in accessing and printing a string, ""Hello World"", onto the monitor",0.46220149642645514
+27,27,231.0,241.56, memory and it is pointed to by this pointer str now printf is passed this pointer str and would," A pointer, referred to as ""str"", is used to point to this string in memory",0.5093747114892926
+29,29,251.08,259.0, is the string displayed onto the monitor what is the process involved to get the string which is," The question is, what is the process involved in getting the string from memory to be displayed on the monitor? Here is an extractive summary of the input:
+
+The processor reads a string from main memory, byte by byte, into registers",0.47671209710471074
+31,31,267.48,273.72, the string hello world would be present in some memory location in the main memory which is also," Additionally, it highlights the importance of main memory (RAM) in sharing among various applications, which need to be present in the main memory to execute",0.44748105124902315
+34,34,291.88000000000005,298.84000000000003, along with copying the string hello world to the video buffer other attributes are added," The string ""Hello World"" is also copied into a video buffer, along with additional attributes such as color, x-y coordinates on the monitor, and other monitor-specific details like depth",0.493494580604832
+35,35,298.84,307.08, for instance things like the color of the string to be displayed the x y coordinates on the monitor," The operating system manages the details of how the string is displayed, including setting the color, coordinates, and other visual properties",0.4131609821375454
+36,36,307.08,313.48, where the hello world string needs to be displayed and other monitor specific attributes such as," The string ""Hello World"" is also copied into a video buffer, along with additional attributes such as color, x-y coordinates on the monitor, and other monitor-specific details like depth",0.4752500360455736
+37,37,313.48,321.88, the depth and so on now this string which is copied to the video buffer is then read by the," The video buffer is read by the graphics card, which then displays the string on the monitor",0.6351855798332025
+38,38,321.88,331.0, graphics card which would then display it on the monitor so this is the entire process of," The video buffer is read by the graphics card, which then displays the string on the monitor",0.4334020026104589
+43,43,363.4,370.76, the depth and other attributes and how exactly to pass this information to the graphics card and so on," To achieve this, it's crucial to effectively pass this information to the graphics card",0.5085830804179741
+48,48,401.3200000000001,409.3200000000001, then perhaps the way the coordinates are set where the depth and color are set for this string," Here is an extractive summary of the input:
+
+The way coordinates are set for a string, such as ""hello world"", may differ depending on the depth and color settings",0.5191053990140055
+83,83,678.12,686.44, system manages for example the cpu the memory network the secondary storage devices like the," These components include the CPU, memory, network, secondary storage devices (hard disk), and monitors, all of which have limited capacities",0.49329052191729594
+84,84,686.44,695.24, hard disk the monitors and so on so all these components within your computer have a restricted," These components include the CPU, memory, network, secondary storage devices (hard disk), and monitors, all of which have limited capacities",0.4516287652448368
+93,93,756.76,764.12, let us consider the cpu so systems typically would have one or two cpus and multiple applications," For example, in a system with one or two CPUs and multiple applications, the OS shares the CPU among applications",0.49485344184038255
+96,96,780.28,788.92, the late 70s and early 80s was to allow one application to execute on the cpu till it completes," In earlier operating systems (late 70s and early 80s), this was achieved by allowing one application to monopolize the CPU, while others waited in line",0.5039022573666329
+97,97,789.56,797.3199999999999, and then start the next application for example application 1 is made to execute on the processor," A simple scheme is to execute one application until it completes, then start the next one",0.4732204542960611
+99,99,804.9200000000001,813.88, now this scheduling of the various applications on the processor is managed by the os," Here is an extractive summary:
+
+The operating system (OS) manages the scheduling of applications on the CPU",0.44210764153460325
+101,101,824.6,831.08, although very simple to implement in the operating system it is not the most efficient way to do," While easy to implement, this approach is not the most efficient way to manage applications",0.5394605257101004
+106,106,859.72,867.32, applications almost concurrently is the main memory now in order to execute each of these," Additionally, it highlights the importance of main memory (RAM) in sharing among various applications, which need to be present in the main memory to execute",0.4097586717952358
+107,107,867.32,873.24, applications needs to be present in the main memory that is the ram of the system," Additionally, it highlights the importance of main memory (RAM) in sharing among various applications, which need to be present in the main memory to execute",0.5949618976434551
+108,108,874.28,882.0400000000001, the operating system needs to ensure how this limited ram resource is shared among the various," Here is an extractive summary:
+
+The operating system must efficiently allocate the limited RAM resource among multiple applications running on the system",0.42426945190683657
+112,112,906.68,916.12, are isolated from each other so each application the os should ensure runs in a sandboxed," The challenge lies in sharing the limited hardware resources while ensuring that each application runs in a sandboxed environment, isolated from others",0.48498269857198345
+115,115,926.76,935.24, and so on so why is this isolation required to take an example of why isolation is required, An example illustrates why isolation is necessary,0.5210307058228881
+116,116,935.56,942.28, let us consider that application one is a web browser in which you are doing a banking transaction," Suppose Application One is a web browser where you're conducting a sensitive banking transaction, entering passwords and credit card details",0.41921267083055935
+117,117,942.92,949.72, for example you are entering your passwords and credit card details in the web browser which," Suppose Application One is a web browser where you're conducting a sensitive banking transaction, entering passwords and credit card details",0.5586614437722166
+118,118,949.72,957.64, is executing as application one on the other hand application two may be a gaming software," Meanwhile, Application Two is a gaming software",0.5576051193654317
+123,123,985.8,989.8, information such as your passwords and your credit card numbers," Without isolation, the malicious application can monitor the activities of other applications, including a web browser, and potentially steal sensitive information such as passwords and credit card numbers",0.4395658961030476
+124,124,989.96,998.12, therefore the operating system should ensure that all these applications are isolated from each other," To prevent this, the operating system should ensure that all applications are isolated from each other to prevent malicious activities",0.6107321965696106
+126,126,1007.72,1012.92, almost every smart device that we use today has some form of operating system present in it," Here is an extractive summary:
+
+Operating systems are ubiquitous, found in almost every smart device used today",0.4616404609743022
+127,127,1013.88,1020.2, so this particular slide shows the various classifications of operating systems depending on, The slide presents various classifications of operating systems based on their intended application,0.4559976755840367
+129,129,1026.04,1033.8, are designed keeping the application in mind for example the embedded os such as," Each operating system is designed with the specific application in mind, such as embedded OS like Contiki OS",0.5575108882162747
+130,130,1033.8,1039.96, contiki operating systems or contiki os are designed for memory constrained environments such as," Each operating system is designed with the specific application in mind, such as embedded OS like Contiki OS",0.41551882935435985
+136,136,1078.28,1087.5600000000002, ios ubuntu touch and windows touch so these operating systems like the embedded os are designed," Here is an extractive summary:
+
+The Android, iOS, Ubuntu Touch, and Windows Touch operating systems are designed to minimize power consumption, ensuring the longest possible battery life of mobile devices",0.5737042506054146
+140,140,1111.16,1115.64, similarities in this aspect with the embedded operating systems like the contiki os," Each operating system is designed with the specific application in mind, such as embedded OS like Contiki OS",0.4852976348424476
+145,145,1155.0,1163.0, are qnx vx works and rt linux so these operating systems are used in mission critical," RTOS, on the other hand, is used in mission-critical applications where timing is crucial, and examples include QNX, VxWorks, and RT Linux",0.46765618168246537
+147,147,1172.04,1180.36, rockets automobiles or nuclear plants a delay in doing a particular operation by the computer system," Here is a summary of the input text:
+
+Real-time operating systems (RTOS) are designed for applications where a delay in a critical operation can have catastrophic consequences, such as in rockets, automobiles, and nuclear plants",0.48761186183953
+150,150,1197.56,1204.44, of operating systems are those used in secure environments so examples of these are," Another classification of operating systems is those used in secure environments, including SeLinux and SEL4",0.5292472705007266
+152,152,1212.84,1220.12, security is extremely critical so these for example could be for web servers that host, These operating systems are typically used in applications where security is extremely critical,0.4021824058882179
+154,154,1227.24,1235.0, are for those used for servers and desktops such as the red hat ubuntu and windows server os," Server operating systems, such as Red Hat, Ubuntu, and Windows Server, are designed for use on web servers hosting sensitive applications like banking software",0.6078297800426644
+155,155,1235.0,1242.52, while desktop operating systems are for example mac windows and ubuntu so while these two," Desktop operating systems, on the other hand, are used on personal computers, including Mac, Windows, and Ubuntu",0.44351498503304326
+157,157,1248.52,1256.12, way the os manages the various applications running on it the operating system that we will," Here is an extractive summary:
+
+The operating system (OS) manages the scheduling of applications on the CPU",0.41665062438375366
+158,158,1256.28,1264.12, be studying for this course is the xp6 os which is designed by mit specifically for teaching purposes," Here is an extractive summary:
+
+The XP6 operating system, designed by MIT for teaching purposes, is a small, well-documented, and easy-to-understand system that resembles Unix Version 6",0.44811135850708383
+159,159,1265.16,1276.84, so the xp6 os is small well documented and easy to understand further xp6 is designed to," Here is an extractive summary:
+
+The XP6 operating system, designed by MIT for teaching purposes, is a small, well-documented, and easy-to-understand system that resembles Unix Version 6",0.5655223910121582

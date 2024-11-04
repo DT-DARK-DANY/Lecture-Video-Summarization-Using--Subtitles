@@ -1,0 +1,149 @@
+,start,end,text
+0,0.0,10.0, ۔
+1,10.0,12.0, ۔
+2,12.0,15.0, ۔
+3,15.0,18.0, ۔
+4,18.0,20.0, ۔
+5,20.0,23.0, ۔
+6,23.0,25.0, ۔
+7,25.0,27.0, ۔
+8,27.0,29.0, ۔
+9,29.0,32.0, ۔
+10,32.0,35.0, ۔
+11,35.0,38.0, ۔
+12,38.0,41.0, ۔
+13,41.0,44.0, ۔
+14,44.0,47.0, ۔
+15,47.0,50.0, ۔
+16,50.0,53.0, ۔
+17,53.0,56.0, ۔
+18,56.0,59.0, ۔
+19,59.0,62.0, ۔
+20,62.0,65.0, ۔
+21,65.0,68.0, ۔
+22,68.0,71.0, ۔
+23,71.0,74.0, ۔
+24,74.0,78.0, ۔
+25,78.0,80.0, ۔
+26,80.0,83.0, ۔
+27,83.0,89.96, for the COVID and we thank all the authors for the slides provided with the book and also on the website
+28,89.96,99.32, some of which we are using in this presentation. The rules of this course you should ask questions
+29,99.32,106.28, through discussion forums and feel free to ask any question your perspective may be different
+30,106.28,112.76, or more apt in mind. Correct me if I make a mistake remember I am in a continuous learning mode
+31,113.16000000000001,121.32000000000001, do not take notes this slide that will be available on the web and finally please make sure
+32,121.32000000000001,127.48, your cell phones are in shearing mode your chat window in busy mode so that you give undivided
+33,127.48,138.52, attention to understand the course. Now we just want to reiterate the learning objectives
+34,138.52,147.48000000000002, upon completion of this lecture you should be able to understand what information security
+35,148.20000000000002,155.16000000000003, in the modern day contest and also in early days it was called computer security how it evolved
+36,155.16000000000003,162.20000000000002, into information security understand many key terms and critical concepts of information security
+37,162.2,172.11999999999998, of modern day and most importantly understand the way a organization which is IT driven the IT
+38,172.11999999999998,177.79999999999998, management of an organization what would be the organogram of that organization who would be
+39,177.79999999999998,186.12, responsible for doing what all these four objectives are very important to appreciate
+40,186.20000000000002,192.28, information security and each of these objectives will have some subtle concepts.
+41,194.68,199.72, I hope many of you know Burton Roussel so Burton Roussel came out with a small statement
+42,200.52,205.88, very very small he is very much well known for very small jargons or very small statements
+43,205.88,211.96, is that obviousness is the enemy of correctness many of the things that we will be teaching in this
+44,211.96,219.4, course are will be debating in this course are obvious things which are not followed and because
+45,219.4,227.88, of that we land up with issues. So we will be teaching you the obvious things in and what it means
+46,228.12,234.76000000000002, if you do not if you neglect those things in the global scenario. So this is what would be our
+47,234.76,245.48, learning objectives. This course has mentioned earlier has six modules this is sub module of
+48,245.48,252.44, module one and what we will be discussing in the entire module one would be what is information
+49,252.44,259.71999999999997, security why do you need it then CIA is a very very important term in information security
+50,259.8,268.28000000000003, which basically talks about confidentiality integrity and availability and to bring this
+51,268.28000000000003,275.08000000000004, confidentiality integrity and availability into the information security system there are lot of
+52,275.08000000000004,281.64000000000004, things that need to be done and what you see in the three bullet points that follow are those
+53,282.20000000000005,288.52000000000004, that are necessary to build in confidentiality integrity and availability into a system.
+54,289.0,297.24, For example policies procedures guidelines standard from a security perspective what are all
+55,297.24,305.64, the administrative measures and technical measures needed to enforce these three the CIA which are
+56,305.64,311.96, basically the foundations of information security or the goals of information security.
+57,312.2,322.35999999999996, We also look at people process and technology people are the are the ones who follow a process
+58,322.91999999999996,329.56, and these processes are implemented by technology. So security should be addressed at the technology
+59,329.56,337.64, level and the process which uses this technology and the people who actually use as these processes.
+60,337.64,346.03999999999996, So there is lot of information lot of disciplines and policies and procedures that people that
+61,346.59999999999997,353.4, need to be implemented at each one of these stages namely at the people level at the process level
+62,353.4,357.56, and technology level and this module will talk deeply about that.
+63,358.2,369.16," Now, we are talking about Kevin Mitnik who is actually an hacker actually was a cyber criminal"
+64,370.36,379.0, and he was actually captured by arrested by FBI. He came back and he became one of the world's
+65,379.96,391.24, one of the world renowned computer security experts and he came out with this very interesting
+66,391.24,397.8, statement again it is a very obvious statement people are the weakest link. This is this particular
+67,397.8,406.76, phrase is known for decades now that whenever I that is a security lapse majorly may it is going
+68,406.92,415.64, to be because of people's unawareness about certain security measures. Though we know that people
+69,415.64,425.08, are the weakest link many many organizations do not actually invest in educating the people on the
+70,425.08,432.52, issues of security. So this is Kevin Mitnik statement that you read on the screen. You can have
+71,432.59999999999997,438.2," the best technology firewalls, intrusions, deductions, systems, biometrics devices, somebody"
+72,438.2,447.64, care but somebody can call an unsuspecting employee but all is that if a small leak from the
+73,447.64,455.71999999999997, people from the employee side the human error or human carelessness that could essentially kill
+74,456.12,467.64000000000004, entire system and this is reality. So Jim Anderson came out with this very interesting
+75,467.64000000000004,474.20000000000005, definition of information security especially in today's enterprise world where we have huge
+76,474.20000000000005,482.36, data centers it is nothing but a well informed sense of assurance that the information risks
+77,482.36,491.56, and controls are in balance. For every risk I have a way to control that. I take a risk I have
+78,491.56,499.24, enough checks and balances to control it. So if that assurance is given then your information
+79,499.24,504.12, is actually secure and this is the definition that was given by Jim Anderson.
+80,505.32,511.24, Now we go into some history of information security because we have to learn the lessons of the
+81,511.24,519.88, past to go and appreciate the present and the future. The computer security basically began that
+82,519.88,524.92, time it was computer security it began immediately after the first mind frames were developed.
+83,525.96,530.04, There were groups developing code breaking computations during World War II
+84,531.8,540.12, which created the first modern computers. Physical controls at that point to secure these computing
+85,541.08,548.2, machines which actually stored some information which is very sensitive. There were no network but
+86,548.2,554.28, they had some lot of physical controls essentially they want to physically secure the system.
+87,554.76,561.08, Physically secure means it should not be broken manually damaged it should not be taken out of
+88,561.08,569.0, a place it should be under lock and key. So the physical controls were read at to limit
+89,569.72,573.72, limit access to authorized persons to sensitive memory locations.
+90,574.44,579.8, And only rudimentary controls were available to defend against this physical
+91,579.8,588.76," theft, espionage and sabotage. The Enigma was the first German computer which was actually"
+92,588.76,593.56, used for sending code message. So here is a small description of Enigma.
+93,593.64,605.2399999999999, So the entire notion of security started with the advanced research project agency ARPA
+94,605.7199999999999,610.52, which began examining the feasibility of a redundant network communications.
+95,611.4,617.8, This was basically headed by Larry Roberts who has developed the project from its inception.
+96,618.3599999999999,622.1999999999999, Larry Roberts is known for his contribution to the internet.
+97,623.4799999999999,633.0, So if you just look at the ARPA net program plan the program plan was to basically share if
+98,633.0,639.0799999999999, you carefully look into it the objective was to develop networking and resource sharing.
+99,640.3599999999999,647.16, So when this is the first notion where computers were the resources available on multiple
+100,647.16,659.48, computers were shared. The ARPA net actually grew in popularity between the 70s and the 80s
+101,661.0,668.52, as and so were the potentials for misuse. The fundamental problem with ARPA net security were
+102,669.64,674.8399999999999, identified at that point. First and foremost there was no safety procedures for
+103,674.84,681.1600000000001, dialogue collections and user identification and authorization to the system were nonexistent.
+104,682.76,689.96, So in the late 1970s the microprocessor expanded computing capabilities and security threats.
+105,690.6,697.88, So the ARPA net which was connecting these microprocessor essentially brought in a notion of security
+106,698.36,705.64, wherein somebody dials up a connection you see an authentic person you see authorized to develop
+107,705.64,710.68, develop that correction and somebody starts using the system that she has the necessary
+108,710.68,718.12, identification and authorization and these are all something which became issues with ARPA net
+109,718.12,722.52, and this started as early as 1970s and 80s.
+110,723.24,733.8, Then came out the R609 which is called the RAND report which formed the first report on computer
+111,733.8,744.4399999999999, security. The scope of computer security grew from physical security to include safety of the data
+112,745.4,751.3199999999999, limiting unauthorized access to the data and also involvement of personal from multi levels of
+113,751.32,758.9200000000001, the organization and each having some specific authorization to use the computers at with some
+114,759.24,768.44, level of security. So if you look at what happened immediately after World War was that people were
+115,768.44,776.6, more interested in having the computer at Locke & Key. There was no notion of sharing the
+116,776.6,784.84, resources between computers and slowly came the ARPA where people started sharing the systems
+117,784.84,790.9200000000001, and the moment they started sharing then the issues of is the correct fellow logging into the system
+118,790.9200000000001,798.76, is he dialing up is he using the data. So more than the physical security of the computer
+119,798.76,805.8000000000001, people started realizing even in the late 70s and early 80s that the data in the computer can be
+120,805.8,814.52, stolen without physically accessing the computer and that the first notions of that was reflected
+121,814.52,827.9599999999999, in this RAND report R609. In the 1990s networks of computers became more common in the civilian sector
+122,828.36,837.08, and so did the need to interconnect the networks. So this resulted in a massive global network which
+123,837.08,844.12, we today call as the internet but in those days still in this large scale internet deployments
+124,844.52,851.72, security unfortunately was treated as a low priority because information that is stored in the
+125,851.72,861.08, computer can be sensitive is a field which people did not realize much during those time.
+126,861.8000000000001,868.36, They taught a network is basically used for sharing the resources and data also became something
+127,868.36,874.9200000000001, that some can someone can share and they wanted to share the data but there are going to be unsarable
+128,875.0,882.68, data within a system is something a realization which did not immediately occur to the people of the
+129,882.68,888.76, early 1990s and that is why when you look at large scale internet deployments of those days
+130,888.76,897.0, security was still given low priority. The present the internet has brought millions of
+131,897.0,901.9599999999999, computer networks into communication with each other and many of them are still unsecured.
+132,902.12,909.1600000000001, So the ability to secure each now influenced by the security on every computer to which it is
+133,909.1600000000001,919.24, connected. As I mentioned in my welcome talk a mistake done by one system a vulnerability on one
+134,919.24,928.0400000000001, system can launch a massive denial of service attack on the entire land and this is something that
+135,928.04,937.88, one need to be careful and so the present system requires a large scale awareness and discipline
+136,937.88,947.0799999999999, in system usage to bring things under control. So what is today's environment look at all these
+137,947.08,953.48, wise Kai Pee Bay YouTube Blackberry Facebook comments on iPhone live by iPad Google
+138,957.1600000000001,964.2800000000001, the world Google has actually become a verb a they want something Google it right so
+139,966.0400000000001,975.0, today so many organizations have trillions and trillions of data and millions and millions of
+140,975.0,985.16, users communicating using this data and that everyone wants some level of security and privacy
+141,985.16,993.88, and confidentiality and availability. Now the entire gamut of information security is to
+142,994.76,1003.16, is to come out with a policy a process a procedure a technology which will go and enable
+143,1003.96,1011.88, a major secure feeling and assurance will give you a major secure assurance to this millions
+144,1011.88,1019.56, and millions of users about the privacy availability confidentiality integrity of the trillions
+145,1019.56,1029.56, of trillions of data that they are using.
+146,1049.56,1059.56, So what is today's environment look at all these data and what is today's environment look at all these data and
+147,1059.56,1069.56, what is today's environment look at all these data and what is today's environment look at all these data and
